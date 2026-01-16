@@ -3,7 +3,7 @@ import sys
 import os
 
 # --- CONSTANTES DE DISEÑO ---
-ANCHO, ALTO = 800, 600
+ANCHO, ALTO = 1000, 750
 C_FONDO = (245, 245, 245)
 C_BOTON = (70, 130, 180)       # Azul estandar
 C_BOTON_SEL = (0, 150, 100)    # Verde para selección
@@ -20,9 +20,9 @@ class InterfazGrafica:
         self.gestor = gestor_logica
         
         # Fuentes
-        self.fuente = pygame.font.SysFont("Arial", 28)
-        self.fuente_peq = pygame.font.SysFont("Arial", 20)
-        self.fuente_grande = pygame.font.SysFont("Arial", 36, bold=True)
+        self.fuente = pygame.font.SysFont("Arial", 30)
+        self.fuente_peq = pygame.font.SysFont("Arial", 22)
+        self.fuente_grande = pygame.font.SysFont("Arial", 40, bold=True)
         
         # Estado
         self.estado = "MENU" # MENU, EXAMEN, FINAL
@@ -31,33 +31,43 @@ class InterfazGrafica:
         self.mensaje_final = ""
         
         # Botones de Opción (A, B, C, D) para el Examen
-        y_pos = 500
+        y_pos = 630
+        ancho_btn = 180
+        espacio = 50 # Espacio entre botones
+
+        inicio_x = 65
+
         self.rect_botones_examen = {
-            "A": pygame.Rect(50, y_pos, 150, 50),
-            "B": pygame.Rect(230, y_pos, 150, 50),
-            "C": pygame.Rect(410, y_pos, 150, 50),
-            "D": pygame.Rect(590, y_pos, 150, 50)
+            "A": pygame.Rect(inicio_x, y_pos, ancho_btn, 60),
+            "B": pygame.Rect(inicio_x + (ancho_btn + espacio), y_pos, ancho_btn, 60),
+            "C": pygame.Rect(inicio_x + (ancho_btn + espacio)*2, y_pos, ancho_btn, 60),
+            "D": pygame.Rect(inicio_x + (ancho_btn + espacio)*3, y_pos, ancho_btn, 60)
         }
 
         # Botones de Selección de Grado para el Menú
         # Keys deben coincidir con las claves del JSON
+        y_f1 = 420
+        y_f2 = 480     
+        
         self.rect_botones_grado = {
-                "Grado 1": pygame.Rect(150, 360, 80, 40),
-                "Grado 2": pygame.Rect(250, 360, 80, 40),
-                "Grado 3": pygame.Rect(350, 360, 80, 40),
-                "Grado 4": pygame.Rect(450, 360, 80, 40),
-                "Grado 5": pygame.Rect(550, 360, 80, 40),
-                
-                "Grado 6": pygame.Rect(150, 420, 80, 40),
-                "Grado 7": pygame.Rect(250, 420, 80, 40),
-                "Grado 8": pygame.Rect(350, 420, 80, 40),
-                "Grado 9": pygame.Rect(450, 420, 80, 40)
-            }
+            # Fila 1
+            "Grado 1": pygame.Rect(260, y_f1, 80, 40),
+            "Grado 2": pygame.Rect(360, y_f1, 80, 40),
+            "Grado 3": pygame.Rect(460, y_f1, 80, 40),
+            "Grado 4": pygame.Rect(560, y_f1, 80, 40),
+            "Grado 5": pygame.Rect(660, y_f1, 80, 40),
+            
+            # Fila 2
+            "Grado 6": pygame.Rect(310, y_f2, 80, 40),
+            "Grado 7": pygame.Rect(410, y_f2, 80, 40),
+            "Grado 8": pygame.Rect(510, y_f2, 80, 40),
+            "Grado 9": pygame.Rect(610, y_f2, 80, 40)
+        }
 
     def escalar_imagen(self, imagen):
         # Ajusta la imagen a max 700x400 manteniendo proporción
         w, h = imagen.get_size()
-        max_w, max_h = 700, 400
+        max_w, max_h = 950, 543
         ratio = min(max_w/w, max_h/h)
         nuevo_tamano = (int(w*ratio), int(h*ratio))
         return pygame.transform.smoothscale(imagen, nuevo_tamano)
@@ -133,23 +143,25 @@ class InterfazGrafica:
         if self.estado == "MENU":
             # Título
             txt_titulo = self.fuente_grande.render("Bienvenido a la Prueba de Admisión", True, C_TEXTO)
-            rect_tit = txt_titulo.get_rect(center=(ANCHO//2, 80))
+            rect_tit = txt_titulo.get_rect(center=(ANCHO//2, 100))
             self.pantalla.blit(txt_titulo, rect_tit)
 
             # --- Sección Nombre ---
             txt_label_nombre = self.fuente.render("Ingrese nombre del aspirante:", True, C_TEXTO)
-            self.pantalla.blit(txt_label_nombre, (150, 160))
+            self.pantalla.blit(txt_label_nombre, (150, 180))
             
             # Caja de texto
-            pygame.draw.rect(self.pantalla, C_BLANCO, (150, 200, 500, 50))
-            pygame.draw.rect(self.pantalla, C_BOTON, (150, 200, 500, 50), 2)
+            caja_x = (ANCHO - 600) // 2
+            pygame.draw.rect(self.pantalla, C_BLANCO, (caja_x, 220, 600, 50))
+            pygame.draw.rect(self.pantalla, C_BOTON, (caja_x, 220, 600, 50), 2)
             
             txt_nombre = self.fuente.render(self.nombre_input, True, C_TEXTO)
-            self.pantalla.blit(txt_nombre, (160, 210))
+            self.pantalla.blit(txt_nombre, (caja_x + 10, 230))
 
             # --- Sección Grados ---
-            txt_label_grado = self.fuente.render("Seleccione el Grado a aspirar:", True, C_TEXTO)
-            self.pantalla.blit(txt_label_grado, (150, 310))
+            txt_label_grado = self.fuente.render("Seleccione el Grado al que aspira:", True, C_TEXTO)
+            rect_lbl_grado = txt_label_grado.get_rect(center=(ANCHO//2, 370))
+            self.pantalla.blit(txt_label_grado, rect_lbl_grado)
 
             # IMPORTANTE: Capturamos posición del mouse para el efecto hover
             mouse_pos = pygame.mouse.get_pos()
@@ -175,6 +187,19 @@ class InterfazGrafica:
                 txt_btn = self.fuente.render(lbl, True, C_BLANCO)
                 rect_txt = txt_btn.get_rect(center=rect.center)
                 self.pantalla.blit(txt_btn, rect_txt)
+            # --- INSTRUCCIÓN FINAL (ABAJO CENTRADA) ---
+                if self.nombre_input and self.grado_seleccionado:
+                    info = "Presiona ENTER para empezar"  # <--- Texto exacto solicitado
+                    color_info = C_BOTON_SEL
+                else:
+                    info = "Complete nombre y seleccione grado"
+                    color_info = (150, 100, 100)
+
+                txt_inst = self.fuente_peq.render(info, True, color_info)
+                # Posición Y=680 (Cerca del fondo 750)
+                rect_inst = txt_inst.get_rect(center=(ANCHO//2, 680))
+                self.pantalla.blit(txt_inst, rect_inst)
+
         # ---------------------------------------------------------
         # PANTALLA: EXAMEN
         # ---------------------------------------------------------
