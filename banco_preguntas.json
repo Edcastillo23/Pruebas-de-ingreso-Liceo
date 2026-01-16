@@ -1,0 +1,240 @@
+{
+    "Grado 1": [
+        {
+            "id": 1,
+            "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\1.png",
+            "correcta": "A",
+            "tema": "Matemáticas - Algebra"
+        },
+        {
+            "id": 2,
+            "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\2.png",
+            "correcta": "C",
+            "tema": "Ciencias - Biología"
+        },
+        {
+            "id": 3,
+            "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\3.png",
+            "correcta": "A",
+            "tema": "Matemáticas - Algebra"
+        },
+        {
+            "id": 4,
+            "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\4.png",
+            "correcta": "C",
+            "tema": "Ciencias - Biología"
+        },        
+        {
+            "id": 5,
+            "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\5.png",
+            "correcta": "A",
+            "tema": "Matemáticas - Algebra"
+        },
+        {
+            "id": 6,
+            "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\6.png",
+            "correcta": "C",
+            "tema": "Ciencias - Biología"
+        },        
+        {
+            "id": 7,
+            "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\7.png",
+            "correcta": "A",
+            "tema": "Matemáticas - Algebra"
+        },
+        {
+            "id": 8,
+            "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\8.png",
+            "correcta": "C",
+            "tema": "Ciencias - Biología"
+        },        
+        {
+            "id": 9,
+            "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\9.png",
+            "correcta": "A",
+            "tema": "Matemáticas - Algebra"
+        },
+        {
+            "id": 10,
+            "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\10.png",
+            "correcta": "C",
+            "tema": "Ciencias - Biología"
+        },        
+        {
+            "id": 11,
+            "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\11.png",
+            "correcta": "A",
+            "tema": "Matemáticas - Algebra"
+        },
+        {
+            "id": 12,
+            "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\12.png",
+            "correcta": "C",
+            "tema": "Ciencias - Biología"
+        },        
+        {
+            "id": 13,
+            "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\13.png",
+            "correcta": "A",
+            "tema": "Matemáticas - Algebra"
+        },
+        {
+            "id": 14,
+            "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\14.png",
+            "correcta": "C",
+            "tema": "Ciencias - Biología"
+        },        
+        {
+            "id": 15,
+            "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\15.png",
+            "correcta": "A",
+            "tema": "Matemáticas - Algebra"
+        },
+        {
+            "id": 16,
+            "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\16.png",
+            "correcta": "C",
+            "tema": "Ciencias - Biología"
+        },        
+        {
+            "id": 17,
+            "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\17.png",
+            "correcta": "A",
+            "tema": "Matemáticas - Algebra"
+        },
+        {
+            "id": 18,
+            "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\18.png",
+            "correcta": "C",
+            "tema": "Ciencias - Biología"
+        },        
+        {
+            "id": 19,
+            "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\19.png",
+            "correcta": "A",
+            "tema": "Matemáticas - Algebra"
+        },
+        {
+            "id": 20,
+            "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\20.png",
+            "correcta": "C",
+            "tema": "Ciencias - Biología"
+        },        
+        {
+            "id": 21,
+            "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\21.png",
+            "correcta": "A",
+            "tema": "Matemáticas - Algebra"
+        },
+        {
+            "id": 22,
+            "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\22.png",
+            "correcta": "C",
+            "tema": "Ciencias - Biología"
+        },        
+        {
+            "id": 23,
+            "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\23.png",
+            "correcta": "A",
+            "tema": "Matemáticas - Algebra"
+        },
+        {
+            "id": 24,
+            "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\24.png",
+            "correcta": "C",
+            "tema": "Ciencias - Biología"
+        },        
+        {
+            "id": 25,
+            "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\25.png",
+            "correcta": "A",
+            "tema": "Matemáticas - Algebra"
+        },
+        {
+            "id": 26,
+            "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\26.png",
+            "correcta": "C",
+            "tema": "Ciencias - Biología"
+        },        
+        {
+            "id": 27,
+            "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\27.png",
+            "correcta": "A",
+            "tema": "Matemáticas - Algebra"
+        },
+        {
+            "id": 28,
+            "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\28.png",
+            "correcta": "C",
+            "tema": "Ciencias - Biología"
+        },        
+        {
+            "id": 29,
+            "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\29.png",
+            "correcta": "A",
+            "tema": "Matemáticas - Algebra"
+        },
+        {
+            "id": 30,
+            "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\30.png",
+            "correcta": "C",
+            "tema": "Ciencias - Biología"
+        },        
+        {
+            "id": 31,
+            "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\31.png",
+            "correcta": "A",
+            "tema": "Matemáticas - Algebra"
+        },
+        {
+            "id": 32,
+            "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\32.png",
+            "correcta": "C",
+            "tema": "Ciencias - Biología"
+        },        
+        {
+            "id": 33,
+            "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\33.png",
+            "correcta": "A",
+            "tema": "Matemáticas - Algebra"
+        },
+        {
+            "id": 34,
+            "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\34.png",
+            "correcta": "C",
+            "tema": "Ciencias - Biología"
+        },        
+        {
+            "id": 35,
+            "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\35.png",
+            "correcta": "A",
+            "tema": "Matemáticas - Algebra"
+        },
+        {
+            "id": 36,
+            "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\36.png",
+            "correcta": "C",
+            "tema": "Ciencias - Biología"
+        }
+
+    ],
+
+    "Grado 2": [
+        {
+            "id": 1,
+            "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\test1.png",
+            "correcta": "A",
+            "tema": "Matemáticas - Algebra"
+        },
+        {
+            "id": 2,
+            "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\test2.png",
+            "correcta": "C",
+            "tema": "Ciencias - Biología"
+        }
+    ]
+
+
+
+
+}

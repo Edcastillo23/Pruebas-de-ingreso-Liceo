@@ -1,0 +1,233 @@
+import pygame
+import sys
+import os
+
+# --- CONSTANTES DE DISEÑO ---
+ANCHO, ALTO = 800, 600
+C_FONDO = (245, 245, 245)
+C_BOTON = (70, 130, 180)       # Azul estandar
+C_BOTON_SEL = (0, 150, 100)    # Verde para selección
+C_HOVER = (100, 180, 255)      # Azul claro
+C_TEXTO = (50, 50, 50)
+C_BLANCO = (255, 255, 255)
+C_NEGRO = (0, 0, 0)
+
+class InterfazGrafica:
+    def __init__(self, gestor_logica):
+        pygame.init()
+        self.pantalla = pygame.display.set_mode((ANCHO, ALTO))
+        pygame.display.set_caption("Prueba de admisión Liceo Los Ángeles")
+        self.gestor = gestor_logica
+        
+        # Fuentes
+        self.fuente = pygame.font.SysFont("Arial", 28)
+        self.fuente_peq = pygame.font.SysFont("Arial", 20)
+        self.fuente_grande = pygame.font.SysFont("Arial", 36, bold=True)
+        
+        # Estado
+        self.estado = "MENU" # MENU, EXAMEN, FINAL
+        self.nombre_input = ""
+        self.grado_seleccionado = None
+        self.mensaje_final = ""
+        
+        # Botones de Opción (A, B, C, D) para el Examen
+        y_pos = 500
+        self.rect_botones_examen = {
+            "A": pygame.Rect(50, y_pos, 150, 50),
+            "B": pygame.Rect(230, y_pos, 150, 50),
+            "C": pygame.Rect(410, y_pos, 150, 50),
+            "D": pygame.Rect(590, y_pos, 150, 50)
+        }
+
+        # Botones de Selección de Grado para el Menú
+        # Keys deben coincidir con las claves del JSON
+        self.rect_botones_grado = {
+                "Grado 1": pygame.Rect(150, 360, 80, 40),
+                "Grado 2": pygame.Rect(250, 360, 80, 40),
+                "Grado 3": pygame.Rect(350, 360, 80, 40),
+                "Grado 4": pygame.Rect(450, 360, 80, 40),
+                "Grado 5": pygame.Rect(550, 360, 80, 40),
+                
+                "Grado 6": pygame.Rect(150, 420, 80, 40),
+                "Grado 7": pygame.Rect(250, 420, 80, 40),
+                "Grado 8": pygame.Rect(350, 420, 80, 40),
+                "Grado 9": pygame.Rect(450, 420, 80, 40)
+            }
+
+    def escalar_imagen(self, imagen):
+        # Ajusta la imagen a max 700x400 manteniendo proporción
+        w, h = imagen.get_size()
+        max_w, max_h = 700, 400
+        ratio = min(max_w/w, max_h/h)
+        nuevo_tamano = (int(w*ratio), int(h*ratio))
+        return pygame.transform.smoothscale(imagen, nuevo_tamano)
+
+    def bucle_principal(self):
+        reloj = pygame.time.Clock()
+        ejecutando = True
+
+        while ejecutando:
+            reloj.tick(30) # 30 FPS
+            
+            for evento in pygame.event.get():
+                if evento.type == pygame.QUIT:
+                    ejecutando = False
+                
+                self.procesar_eventos(evento)
+
+            self.dibujar_pantalla()
+            pygame.display.flip()
+
+        pygame.quit()
+        sys.exit()
+
+    def procesar_eventos(self, evento):
+        # --- LÓGICA DEL MENÚ ---
+        if self.estado == "MENU":
+            # 1. Clics para seleccionar grado
+            if evento.type == pygame.MOUSEBUTTONDOWN:
+                if evento.button == 1:
+                    for nombre_grado, rect in self.rect_botones_grado.items():
+                        if rect.collidepoint(evento.pos):
+                            self.grado_seleccionado = nombre_grado
+
+            # 2. Teclado para nombre e inicio
+            if evento.type == pygame.KEYDOWN:
+                if evento.key == pygame.K_RETURN:
+                    # Solo inicia si hay nombre Y grado seleccionado
+                    if len(self.nombre_input) > 0 and self.grado_seleccionado:
+                        self.gestor.registrar_estudiante(self.nombre_input, self.grado_seleccionado)
+                        
+                        if self.gestor.preguntas:
+                            self.estado = "EXAMEN"
+                        else:
+                            print(f"Advertencia: No hay preguntas cargadas para {self.grado_seleccionado}")
+                
+                elif evento.key == pygame.K_BACKSPACE:
+                    self.nombre_input = self.nombre_input[:-1]
+                else:
+                    if len(self.nombre_input) < 25:
+                        self.nombre_input += evento.unicode
+
+        # --- LÓGICA DEL EXAMEN ---
+        elif self.estado == "EXAMEN":
+            if evento.type == pygame.MOUSEBUTTONDOWN:
+                if evento.button == 1:
+                    for op, rect in self.rect_botones_examen.items():
+                        if rect.collidepoint(evento.pos):
+                            termino = self.gestor.procesar_respuesta(op)
+                            if termino:
+                                self.estado = "FINAL"
+                                try:
+                                    ruta_pdf = self.gestor.generar_reporte_pdf()
+                                    self.mensaje_final = f"Informe generado: {os.path.basename(ruta_pdf)}"
+                                except Exception as e:
+                                    self.mensaje_final = f"Error generando PDF: {str(e)}"
+
+    def dibujar_pantalla(self):
+        self.pantalla.fill(C_FONDO)
+
+        # ---------------------------------------------------------
+        # PANTALLA: MENÚ DE INICIO
+        # ---------------------------------------------------------
+        if self.estado == "MENU":
+            # Título
+            txt_titulo = self.fuente_grande.render("Bienvenido a la Prueba de Admisión", True, C_TEXTO)
+            rect_tit = txt_titulo.get_rect(center=(ANCHO//2, 80))
+            self.pantalla.blit(txt_titulo, rect_tit)
+
+            # --- Sección Nombre ---
+            txt_label_nombre = self.fuente.render("Ingrese nombre del aspirante:", True, C_TEXTO)
+            self.pantalla.blit(txt_label_nombre, (150, 160))
+            
+            # Caja de texto
+            pygame.draw.rect(self.pantalla, C_BLANCO, (150, 200, 500, 50))
+            pygame.draw.rect(self.pantalla, C_BOTON, (150, 200, 500, 50), 2)
+            
+            txt_nombre = self.fuente.render(self.nombre_input, True, C_TEXTO)
+            self.pantalla.blit(txt_nombre, (160, 210))
+
+            # --- Sección Grados ---
+            txt_label_grado = self.fuente.render("Seleccione el Grado a aspirar:", True, C_TEXTO)
+            self.pantalla.blit(txt_label_grado, (150, 310))
+
+            # IMPORTANTE: Capturamos posición del mouse para el efecto hover
+            mouse_pos = pygame.mouse.get_pos()
+
+            for nombre_grado, rect in self.rect_botones_grado.items():
+                # Lógica de Color: 1. Seleccionado -> 2. Hover -> 3. Normal
+                if self.grado_seleccionado == nombre_grado:
+                    color_fondo = C_BOTON_SEL    # Verde (Seleccionado)
+                    color_borde = C_NEGRO
+                elif rect.collidepoint(mouse_pos):
+                    color_fondo = C_HOVER        # Azul Claro (Hover recuperado)
+                    color_borde = C_HOVER
+                else:
+                    color_fondo = C_BOTON        # Azul Oscuro (Normal)
+                    color_borde = C_BOTON
+                
+                # Dibujar botón
+                pygame.draw.rect(self.pantalla, color_fondo, rect, border_radius=6)
+                pygame.draw.rect(self.pantalla, color_borde, rect, 2, border_radius=6)
+                
+                # Texto corto (ej: "Grado 1" -> "1°")
+                lbl = nombre_grado.replace("Grado ", "") + "°"
+                txt_btn = self.fuente.render(lbl, True, C_BLANCO)
+                rect_txt = txt_btn.get_rect(center=rect.center)
+                self.pantalla.blit(txt_btn, rect_txt)
+        # ---------------------------------------------------------
+        # PANTALLA: EXAMEN
+        # ---------------------------------------------------------
+        elif self.estado == "EXAMEN":
+            pregunta = self.gestor.obtener_pregunta_actual()
+            
+            if pregunta:
+                # 1. Imagen de la pregunta
+                ruta_img = os.path.join("activos", "imagenes", pregunta["imagen"])
+                try:
+                    # Intentamos cargar la imagen
+                    img = pygame.image.load(ruta_img)
+                    img_esc = self.escalar_imagen(img)
+                    x_pos = (ANCHO - img_esc.get_width()) // 2
+                    self.pantalla.blit(img_esc, (x_pos, 50))
+                except Exception as e:
+                    # Fallback visual si no encuentra la imagen
+                    pygame.draw.rect(self.pantalla, C_NEGRO, (50, 50, 700, 400))
+                    txt_err = self.fuente_peq.render(f"Imagen no encontrada: {pregunta['imagen']}", True, C_BLANCO)
+                    self.pantalla.blit(txt_err, (60, 200))
+
+                # 2. Botones de opciones (A, B, C, D)
+                mouse_pos = pygame.mouse.get_pos()
+                
+                for op, rect in self.rect_botones_examen.items():
+                    # Efecto Hover
+                    color = C_HOVER if rect.collidepoint(mouse_pos) else C_BOTON
+                    
+                    pygame.draw.rect(self.pantalla, color, rect, border_radius=10)
+                    pygame.draw.rect(self.pantalla, C_NEGRO, rect, 2, border_radius=10)
+                    
+                    txt = self.fuente.render(op, True, C_BLANCO)
+                    rect_txt = txt.get_rect(center=rect.center)
+                    self.pantalla.blit(txt, rect_txt)
+                
+                # Indicador de progreso
+                idx = self.gestor.indice_actual + 1
+                total = len(self.gestor.preguntas)
+                txt_prog = self.fuente_peq.render(f"Pregunta {idx} de {total}", True, C_TEXTO)
+                self.pantalla.blit(txt_prog, (20, 20))
+
+        # ---------------------------------------------------------
+        # PANTALLA: FINAL
+        # ---------------------------------------------------------
+        elif self.estado == "FINAL":
+            txt_fin = self.fuente_grande.render("¡Examen Finalizado!", True, C_BOTON)
+            rect_fin = txt_fin.get_rect(center=(ANCHO//2, ALTO//2 - 40))
+            self.pantalla.blit(txt_fin, rect_fin)
+            
+            txt_ruta = self.fuente_peq.render(self.mensaje_final, True, C_BOTON_SEL)
+            rect_ruta = txt_ruta.get_rect(center=(ANCHO//2, ALTO//2 + 20))
+            self.pantalla.blit(txt_ruta, rect_ruta)
+            
+            txt_salir = self.fuente_peq.render("Cierre la ventana para salir", True, C_TEXTO)
+            rect_salir = txt_salir.get_rect(center=(ANCHO//2, ALTO - 50))
+            self.pantalla.blit(txt_salir, rect_salir)
