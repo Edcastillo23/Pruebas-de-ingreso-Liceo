@@ -284,20 +284,289 @@
 
     "Grado 2": [
         {
-            "id": 1,
-            "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\test1.png",
-            "correcta": "A",
-            "tema": "Matemáticas - Algebra"
+        "id": 1,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\segundo\\1.png",
+        "correcta": "C",
+        "tema": "Conteo y representación de cantidades",
+        "materia": "Matemáticas"
         },
         {
-            "id": 2,
-            "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\test2.png",
-            "correcta": "C",
-            "tema": "Ciencias - Biología"
+        "id": 2,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\segundo\\2.png",
+        "correcta": "B",
+        "tema": "Interpretación de tablas de frecuencia",
+        "materia": "Matemáticas"
+        },
+        {
+        "id": 3,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\segundo\\3.png",
+        "correcta": "A",
+        "tema": "Análisis de errores en el registro de datos",
+        "materia": "Matemáticas"
+        },
+        {
+        "id": 4,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\segundo\\4.png",
+        "correcta": "C",
+        "tema": "Secuencias y patrones de crecimiento numérico",
+        "materia": "Matemáticas"
+        },
+        {
+        "id": 5,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\segundo\\5.png",
+        "correcta": "C",
+        "tema": "Organización de información en pictogramas",
+        "materia": "Matemáticas"
+        },
+        {
+        "id": 6,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\segundo\\6.png",
+        "correcta": "B",
+        "tema": "Relaciones numéricas y diferencia de edades",
+        "materia": "Matemáticas"
+        },
+        {
+        "id": 7,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\segundo\\7.png",
+        "correcta": "A",
+        "tema": "Comparación de atributos físicos (tamaño)",
+        "materia": "Matemáticas"
+        },
+        {
+        "id": 8,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\segundo\\8.png",
+        "correcta": "A",
+        "tema": "Noción de cantidad y volumen",
+        "materia": "Matemáticas"
+        },
+        {
+        "id": 9,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\segundo\\9.png",
+        "correcta": "B",
+        "tema": "Comprensión de lectura literal (descripción)",
+        "materia": "Lenguaje"
+        },
+        {
+        "id": 10,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\segundo\\10.png",
+        "correcta": "B",
+        "tema": "Componentes del texto (relación imagen y palabra)",
+        "materia": "Lenguaje"
+        },
+        {
+        "id": 11,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\segundo\\11.png",
+        "correcta": "C",
+        "tema": "Rimas y conciencia fonológica",
+        "materia": "Lenguaje"
+        },
+        {
+        "id": 12,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\segundo\\12.png",
+        "correcta": "B",
+        "tema": "Uso correcto de mayúsculas y minúsculas",
+        "materia": "Lenguaje"
+        },
+        {
+        "id": 13,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\segundo\\13.png",
+        "correcta": "C",
+        "tema": "Estructura narrativa (función de la introducción)",
+        "materia": "Lenguaje"
+        },
+        {
+        "id": 14,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\segundo\\14.png",
+        "correcta": "B",
+        "tema": "Propósito comunicativo de avisos publicitarios",
+        "materia": "Lenguaje"
+        },
+        {
+        "id": 15,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\segundo\\15.png",
+        "correcta": "B",
+        "tema": "Función de textos recreativos",
+        "materia": "Lenguaje"
+        },
+        {
+        "id": 16,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\segundo\\16.png",
+        "correcta": "B",
+        "tema": "Comprensión de lectura inferencial (causa y efecto)",
+        "materia": "Lenguaje"
+        },
+        {
+        "id": 17,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\segundo\\17.png",
+        "correcta": "B",
+        "tema": "Características diferenciadoras de los animales",
+        "materia": "Ciencias Naturales"
+        },
+        {
+        "id": 18,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\segundo\\18.png",
+        "correcta": "C",
+        "tema": "Necesidades vitales de los seres vivos",
+        "materia": "Ciencias Naturales"
+        },
+        {
+        "id": 19,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\segundo\\19.png",
+        "correcta": "C",
+        "tema": "Propiedades de la materia (estados y mezclas)",
+        "materia": "Ciencias Naturales"
+        },
+        {
+        "id": 20,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\segundo\\20.png",
+        "correcta": "A",
+        "tema": "Percepción visual y propiedades del agua",
+        "materia": "Ciencias Naturales"
+        },
+        {
+        "id": 21,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\segundo\\21.png",
+        "correcta": "A",
+        "tema": "Sentidos y percepción de la temperatura",
+        "materia": "Ciencias Naturales"
+        },
+        {
+        "id": 22,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\segundo\\22.png",
+        "correcta": "A",
+        "tema": "Identificación de fuentes de luz natural",
+        "materia": "Ciencias Naturales"
+        },
+        {
+        "id": 23,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\segundo\\23.png",
+        "correcta": "B",
+        "tema": "Utilidad de las plantas y sus recursos",
+        "materia": "Ciencias Naturales"
+        },
+        {
+        "id": 24,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\segundo\\24.png",
+        "correcta": "A",
+        "tema": "Objetos tecnológicos para la iluminación",
+        "materia": "Ciencias Naturales"
+        },
+        {
+        "id": 25,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\segundo\\25.png",
+        "correcta": "C",
+        "tema": "Identificación de espacios recreativos y públicos",
+        "materia": "Ciencias Sociales"
+        },
+        {
+        "id": 26,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\segundo\\26.png",
+        "correcta": "C",
+        "tema": "Identidad, diversidad y gustos personales",
+        "materia": "Ciencias Sociales"
+        },
+        {
+        "id": 27,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\segundo\\27.png",
+        "correcta": "B",
+        "tema": "Democracia escolar y liderazgo (el personero)",
+        "materia": "Ciencias Sociales"
+        },
+        {
+        "id": 28,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\segundo\\28.png",
+        "correcta": "A",
+        "tema": "Diversidad en las actividades familiares",
+        "materia": "Ciencias Sociales"
+        },
+        {
+        "id": 29,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\segundo\\29.png",
+        "correcta": "A",
+        "tema": "Convivencia y comportamiento en el entorno social",
+        "materia": "Ciencias Sociales"
+        },
+        {
+        "id": 30,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\segundo\\30.png",
+        "correcta": "C",
+        "tema": "Cooperación y trabajo en equipo",
+        "materia": "Ciencias Sociales"
+        },
+        {
+        "id": 31,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\segundo\\31.png",
+        "correcta": "C",
+        "tema": "Funciones de las organizaciones sociales (recreación)",
+        "materia": "Ciencias Sociales"
+        },
+        {
+        "id": 32,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\segundo\\32.png",
+        "correcta": "B",
+        "tema": "Importancia de los servicios de salud en la sociedad",
+        "materia": "Ciencias Sociales"
+        },
+        {
+        "id": 33,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\segundo\\33.png",
+        "correcta": "A",
+        "tema": "Vocabulario de números (twenty-five)",
+        "materia": "Inglés"
+        },
+        {
+        "id": 34,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\segundo\\34.png",
+        "correcta": "A",
+        "tema": "Vocabulario de números (fifty)",
+        "materia": "Inglés"
+        },
+        {
+        "id": 35,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\segundo\\35.png",
+        "correcta": "C",
+        "tema": "Verbos de acción (run)",
+        "materia": "Inglés"
+        },
+        {
+        "id": 36,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\segundo\\36.png",
+        "correcta": "B",
+        "tema": "Verbos de acción (walk)",
+        "materia": "Inglés"
+        },
+        {
+        "id": 37,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\segundo\\37.png",
+        "correcta": "A",
+        "tema": "Vocabulario de cuidado ambiental (recycle)",
+        "materia": "Inglés"
+        },
+        {
+        "id": 38,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\segundo\\38.png",
+        "correcta": "B",
+        "tema": "Adjetivos descriptivos (tall)",
+        "materia": "Inglés"
+        },
+        {
+        "id": 39,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\segundo\\39.png",
+        "correcta": "C",
+        "tema": "Verbos de acción y aseo (wash)",
+        "materia": "Inglés"
+        },
+        {
+        "id": 40,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\segundo\\40.png",
+        "correcta": "B",
+        "tema": "Vocabulario de objetos del hogar (lamp)",
+        "materia": "Inglés"
         }
     ]
+    
 
 
 
 
-}
+    }
