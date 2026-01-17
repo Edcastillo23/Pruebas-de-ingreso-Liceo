@@ -4,241 +4,281 @@
             "id": 1,
             "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\1.png",
             "correcta": "B",
-            "tema": "Mate: agrupación por características"
+            "tema": "Agrupación por características.",
+            "materia": "Matemáticas"
         },
         {
             "id": 2,
             "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\2.png",
             "correcta": "A",
-            "tema": "Mate: clasificación de objetos y reciclaje"
+            "tema": "Clasificación de objetos y reciclaje.",
+            "materia": "Matemáticas"
         },
         {
             "id": 3,
             "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\3.png",
             "correcta": "C",
-            "tema": "Mate: relaciones de orden de corto a largo"
+            "tema": "Relaciones de orden de corto a largo.",
+            "materia": "Matemáticas"
         },
         {
             "id": 4,
             "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\4.png",
             "correcta": "C",
-            "tema": "Mate: relaciones de orden de más corto a más largo"
+            "tema": "Relaciones de orden de más corto a más largo.",
+            "materia": "Matemáticas"
         },
         {
             "id": 5,
             "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\5.png",
             "correcta": "B",
-            "tema": "Mate: sustracción y diferencia de cantidades"
+            "tema": "Sustracción y diferencia de cantidades.",
+            "materia": "Matemáticas"
         },
         {
             "id": 6,
             "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\6.png",
             "correcta": "B",
-            "tema": "Mate: secuencias y patrones lógicos"
+            "tema": "Secuencias y patrones lógicos.",
+            "materia": "Matemáticas"
         },
         {
             "id": 7,
             "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\7.png",
             "correcta": "C",
-            "tema": "Mate: conteo de colecciones y cuantificadores"
+            "tema": "Conteo de colecciones y cuantificadores.",
+            "materia": "Matemáticas"
         },
         {
             "id": 8,
             "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\8.png",
             "correcta": "C",
-            "tema": "Mate: conteo de colecciones de objetos"
+            "tema": "Conteo de colecciones de objetos.",
+            "materia": "Matemáticas"
         },
         {
             "id": 9,
             "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\9.png",
             "correcta": "B",
-            "tema": "Lengua: comprensión de lectura (identificación por descripción)"
+            "tema": "Comprensión de lectura (identificación por descripción).",
+            "materia": "Lenguaje"
         },
         {
             "id": 10,
             "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\10.png",
             "correcta": "C",
-            "tema": "Lengua: secuencia narrativa en textos visuales"
+            "tema": "Secuencia narrativa en textos visuales.",
+            "materia": "Lenguaje"
         },
         {
             "id": 11,
             "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\11.png",
             "correcta": "A",
-            "tema": "Lengua: conciencia fonológica (reconocimiento de rimas)"
+            "tema": "Conciencia fonológica (reconocimiento de rimas).",
+            "materia": "Lenguaje"
         },
         {
             "id": 12,
             "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\12.png",
             "correcta": "C",
-            "tema": "Lengua: interpretación de imágenes y reconocimiento de emociones"
+            "tema": "Interpretación de imágenes y reconocimiento de emociones.",
+            "materia": "Lenguaje"
         },
         {
             "id": 13,
             "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\13.png",
             "correcta": "B",
-            "tema": "Lengua: ortografía (completar palabras con vocales)"
+            "tema": "Ortografía (completar palabras con vocales).",
+            "materia": "Lenguaje"
         },
         {
             "id": 14,
             "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\14.png",
             "correcta": "C",
-            "tema": "Lengua: ortografía (identificación de consonantes iniciales)"
+            "tema": "Ortografía (identificación de consonantes iniciales).",
+            "materia": "Lenguaje"
         },
         {
             "id": 15,
             "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\15.png",
             "correcta": "A",
-            "tema": "Lengua: comprensión de textos informativos (afiches)"
+            "tema": "Comprensión de textos informativos (afiches).",
+            "materia": "Lenguaje"
         },
         {
             "id": 16,
             "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\16.png",
             "correcta": "B",
-            "tema": "Lengua: inferencia y contexto comunicativo"
+            "tema": "Inferencia y contexto comunicativo.",
+            "materia": "Lenguaje"
         },
         {
             "id": 17,
             "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\17.png",
             "correcta": "A",
-            "tema": "Natu: magnitudes y medidas (comparación de longitud)"
+            "tema": "Magnitudes y medidas (comparación de longitud).",
+            "materia": "Ciencias Naturales"
         },
         {
             "id": 18,
             "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\18.png",
             "correcta": "B",
-            "tema": "Natu: hábitos de vida saludable (alimentación nutritiva)"
+            "tema": "Hábitos de vida saludable (alimentación nutritiva).",
+            "materia": "Ciencias Naturales"
         },
         {
             "id": 19,
             "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\19.png",
             "correcta": "C",
-            "tema": "Natu: clasificación de seres vivos por especie"
+            "tema": "Clasificación de seres vivos por especie.",
+            "materia": "Ciencias Naturales"
         },
         {
             "id": 20,
             "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\20.png",
             "correcta": "C",
-            "tema": "Natu: hábitos de higiene personal"
+            "tema": "Hábitos de higiene personal.",
+            "materia": "Ciencias Naturales"
         },
         {
             "id": 21,
             "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\21.png",
             "correcta": "B",
-            "tema": "Natu: prevención de riesgos (lugares seguros)"
+            "tema": "Prevención de riesgos (lugares seguros).",
+            "materia": "Ciencias Naturales"
         },
         {
             "id": 22,
             "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\22.png",
             "correcta": "A",
-            "tema": "Natu: prevención de riesgos (lugares inseguros)"
+            "tema": "Prevención de riesgos (lugares inseguros).",
+            "materia": "Ciencias Naturales"
         },
         {
             "id": 23,
             "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\23.png",
             "correcta": "C",
-            "tema": "Natu: interpretación de datos (mayor cantidad)"
+            "tema": "Interpretación de datos (mayor cantidad).",
+            "materia": "Ciencias Naturales"
         },
         {
             "id": 24,
             "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\24.png",
             "correcta": "A",
-            "tema": "Natu: interpretación de datos (cantidad menor)"
+            "tema": "Interpretación de datos (cantidad menor).",
+            "materia": "Ciencias Naturales"
         },
         {
             "id": 25,
             "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\25.png",
             "correcta": "B",
-            "tema": "Soc: orientación temporal orden de los días de la semana"
+            "tema": "Orientación temporal orden de los días de la semana.",
+            "materia": "Sociales"
         },
         {
             "id": 26,
             "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\26.png",
             "correcta": "C",
-            "tema": "Soc: orientación temporal nociones de hoy y mañana"
+            "tema": "Orientación temporal nociones de hoy y mañana.",
+            "materia": "Sociales"
         },
         {
             "id": 27,
             "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\27.png",
             "correcta": "B",
-            "tema": "Soc: la vivienda identificación de materiales de construcción"
+            "tema": "La vivienda identificación de materiales de construcción.",
+            "materia": "Sociales"
         },
         {
             "id": 28,
             "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\28.png",
             "correcta": "A",
-            "tema": "Soc: la vivienda dependencias de la casa y su utilidad"
+            "tema": "La vivienda dependencias de la casa y su utilidad.",
+            "materia": "Sociales"
         },
         {
             "id": 29,
             "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\29.png",
             "correcta": "A",
-            "tema": "Soc: orientación espacial dentro"
+            "tema": "Orientación espacial dentro.",
+            "materia": "Sociales"
         },
         {
             "id": 30,
             "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\30.png",
             "correcta": "C",
-            "tema": "Soc: convivencia escolar y respeto de normas en el aula"
+            "tema": "Convivencia escolar y respeto de normas en el aula.",
+            "materia": "Sociales"
         },
         {
             "id": 31,
             "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\31.png",
             "correcta": "B",
-            "tema": "Soc: orientación espacial noción de distancia"
+            "tema": "Orientación espacial noción de distancia.",
+            "materia": "Sociales"
         },
         {
             "id": 32,
             "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\32.png",
             "correcta": "B",
-            "tema": "Soc: valores y convivencia trato respetuoso"
+            "tema": "Valores y convivencia trato respetuoso.",
+            "materia": "Sociales"
         },
         {
             "id": 33,
             "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\33.png",
             "correcta": "B",
-            "tema": "Ing: vocabulario básico frutas"
+            "tema": "Vocabulario básico frutas.",
+            "materia": "Inglés"
         },
         {
             "id": 34,
             "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\34.png",
             "correcta": "C",
-            "tema": "Ing: vocabulario básico objetos del hogar"
+            "tema": "Vocabulario básico objetos del hogar.",
+            "materia": "Inglés"
         },
         {
             "id": 35,
             "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\35.png",
             "correcta": "A",
-            "tema": "Ing: vocabulario básico animales"
+            "tema": "Vocabulario básico animales.",
+            "materia": "Inglés"
         },
         {
             "id": 36,
             "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\36.png",
             "correcta": "C",
-            "tema": "Ing: vocabulario básico lugares"
+            "tema": "Vocabulario básico lugares.",
+            "materia": "Inglés"
         },
         {
             "id": 37,
             "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\37.png",
             "correcta": "A",
-            "tema": "Ing: vocabulario básico útiles escolares"
+            "tema": "Vocabulario básico útiles escolares.",
+            "materia": "Inglés"
         },
         {
             "id": 38,
             "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\38.png",
             "correcta": "B",
-            "tema": "Ing: vocabulario básico objetos de juego"
+            "tema": "Vocabulario básico objetos de juego.",
+            "materia": "Inglés"
         },
         {
             "id": 39,
             "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\39.png",
             "correcta": "C",
-            "tema": "Ing: vocabulario básico medios de transporte"
+            "tema": "Vocabulario básico medios de transporte.",
+            "materia": "Inglés"
         },
         {
             "id": 40,
             "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\primero\\40.png",
             "correcta": "A",
-            "tema": "Ing: vocabulario básico miembros de la familia"
+            "tema": "Vocabulario básico miembros de la familia.",
+            "materia": "Inglés"
         }
     ],
 

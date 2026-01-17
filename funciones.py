@@ -5,8 +5,8 @@ from datetime import datetime
 
 class GestorExamen:
     def __init__(self):
-        self.banco_completo = self._cargar_banco() # Cargamos TODO el JSON
-        self.preguntas = [] # Se llenará al elegir grado
+        self.banco_completo = self._cargar_banco()
+        self.preguntas = []
         self.respuestas_usuario = []
         self.estudiante = {"nombre": "", "grado": ""}
         self.indice_actual = 0
@@ -21,12 +21,9 @@ class GestorExamen:
     def registrar_estudiante(self, nombre, grado):
         self.estudiante["nombre"] = nombre
         self.estudiante["grado"] = grado
-        
-        # AQUÍ ESTÁ LA MAGIA: Seleccionamos las preguntas del grado
         if grado in self.banco_completo:
             self.preguntas = self.banco_completo[grado]
         else:
-            print(f"Error: No hay preguntas para {grado}")
             self.preguntas = []
 
     def obtener_pregunta_actual(self):
@@ -41,83 +38,162 @@ class GestorExamen:
 
         es_correcta = (opcion_elegida == pregunta["correcta"])
         
+        # Guardamos datos clave para el reporte
         self.respuestas_usuario.append({
             "id": pregunta["id"],
-            "tema": pregunta["tema"],
+            "materia": pregunta.get("materia", "General"), 
+            "tema": pregunta.get("tema", "Tema general"),
             "seleccion": opcion_elegida,
-            "correcta": es_correcta,
-            "retroalimentacion": pregunta.get("retroalimentacion", f"Debes repasar {pregunta['tema']}.")
+            "correcta": es_correcta
         })
         
         self.indice_actual += 1
-        return self.indice_actual >= len(self.preguntas) # Retorna True si terminó
+        return self.indice_actual >= len(self.preguntas)
 
     def generar_reporte_pdf(self):
         if not os.path.exists("reportes"):
             os.makedirs("reportes")
 
+        # --- 1. PROCESAR DATOS (ESTADÍSTICAS Y RECOMENDACIONES) ---
+        stats = {}
+        # Usamos un diccionario de sets para evitar temas repetidos si fallan varias del mismo tema
+        recomendaciones_por_materia = {} 
+        
+        # Inicializamos algunas materias para mantener orden (opcional)
+        materias_orden = ["Matemáticas", "Lengua Castellana", "Naturales", "Sociales"]
+        for m in materias_orden:
+            stats[m] = {"total": 0, "bien": 0, "mal": 0}
+
+        for resp in self.respuestas_usuario:
+            materia = resp["materia"]
+            tema = resp["tema"]
+            
+            # Inicializar materia si no existe en stats
+            if materia not in stats:
+                stats[materia] = {"total": 0, "bien": 0, "mal": 0}
+            
+            # Conteo
+            stats[materia]["total"] += 1
+            if resp["correcta"]:
+                stats[materia]["bien"] += 1
+            else:
+                stats[materia]["mal"] += 1
+                
+                # AGREGAR A RECOMENDACIONES
+                if materia not in recomendaciones_por_materia:
+                    recomendaciones_por_materia[materia] = set()
+                recomendaciones_por_materia[materia].add(tema)
+
+        # --- 2. INICIO DEL PDF ---
         pdf = FPDF()
         pdf.add_page()
-        pdf.set_font("Arial", size=12)
+        # --- CÓDIGO NUEVO PARA EL LOGO ---
+        # Asegúrate de que el nombre coincida con tu archivo
+        ruta_logo = os.path.join("archivos", "logo.png") 
+        
+        if os.path.exists(ruta_logo):
+            pdf.image(ruta_logo, x=10, y=8, w=25)
+
+
+        pdf.set_font("Arial", size=11)
 
         # Encabezado
         pdf.set_font("Arial", 'B', 16)
-        pdf.cell(200, 10, txt="Resultados de Admisión", ln=1, align='C')
-        pdf.ln(10)
-
-        # Datos Estudiante
-        pdf.set_font("Arial", size=12)
-        pdf.cell(0, 10, txt=f"Estudiante: {self.estudiante['nombre']}", ln=1)
-        pdf.cell(0, 10, txt=f"Grado Aspirado: {self.estudiante['grado']}", ln=1)
-        pdf.cell(0, 10, txt=f"Fecha: {datetime.now().strftime('%Y-%m-%d')}", ln=1)
-        pdf.cell(0, 10, txt=f"Hora: {datetime.now().strftime('%H:%M')}", ln=1)
-        pdf.ln(10)
-
-        # Resultados
-        nota = sum(1 for r in self.respuestas_usuario if r["correcta"])
-        total = len(self.respuestas_usuario)
-        
-        pdf.set_font("Arial", 'B', 14)
-        pdf.cell(0, 10, txt=f"Nota Final: {nota} / {total}", ln=1)
-        
-        # Tabla de detalles
         pdf.ln(5)
-        pdf.set_font("Arial", 'B', 12)
-        pdf.cell(90, 10, "Tema", 1)
-        pdf.cell(30, 10, "Estado", 1)
-        pdf.cell(70, 10, "Recomendación", 1)
-        pdf.ln()
+        pdf.cell(0, 10, "Informe de Resultados - Admisión", ln=1, align='C')
+        pdf.ln(5)
+        
+        pdf.set_font("Arial", size=12)
+        pdf.ln(5)
+        pdf.cell(0, 8, f"Estudiante: {self.estudiante['nombre']}", ln=1)
+        pdf.cell(0, 8, f"Grado al que aspira: {self.estudiante['grado']}", ln=1)
+        pdf.cell(0, 8, f"Fecha: {datetime.now().strftime('%d/%m/%Y')}", ln=1)
+        pdf.cell(0,8, f"Hora: {datetime.now().strftime('%H:%M:%S')}", ln=1)
+        pdf.ln(10)
 
+        # --- 3. DIBUJAR LA TABLA ---
+        w_mat = 50
+        w_tot = 30
+        w_corr = 25
+        w_inc = 25
+        w_porc = 30
+        w_nota = 25
+        h_fila = 10
+
+        pdf.set_font("Arial", size=12)
+        pdf.cell(0, 8, "La siguiente tabla muestra el Resumen de Resultados por Materia:", ln=1)
+
+        # Header Tabla
+        pdf.set_font("Arial", 'B', 10)
+        pdf.set_fill_color(230, 230, 230)
+        
+        pdf.cell(w_mat, h_fila, "Materia", 1, 0, 'C', 1)
+        pdf.cell(w_tot, h_fila, "Preguntas", 1, 0, 'C', 1)
+        pdf.cell(w_corr, h_fila, "Bien", 1, 0, 'C', 1)
+        pdf.cell(w_inc, h_fila, "Mal", 1, 0, 'C', 1)
+        pdf.cell(w_porc, h_fila, "% Aprob.", 1, 0, 'C', 1)
+        pdf.cell(w_nota, h_fila, "Nota", 1, 1, 'C', 1)
+
+        # Cuerpo Tabla
         pdf.set_font("Arial", size=10)
-        temas_a_revisar = set()
+        
+        # Iteramos stats. Si usaste materias_orden, esto respeta ese orden.
+        # Si hay materias nuevas en el JSON, las agregamos al final.
+        lista_materias = list(stats.keys())
+        
+        for materia in lista_materias:
+            datos = stats[materia]
+            if datos["total"] == 0: continue 
 
-        for resp in self.respuestas_usuario:
-            estado = "Correcto" if resp["correcta"] else "Incorrecto"
-            recom = "-" if resp["correcta"] else "Estudiar tema"
+            porcentaje = (datos["bien"] / datos["total"]) * 100
+            nota = (datos["bien"] / datos["total"]) * 5.0
+
+            pdf.cell(w_mat, h_fila, materia, 1, 0, 'L')
+            pdf.cell(w_tot, h_fila, str(datos["total"]), 1, 0, 'C')
+            pdf.cell(w_corr, h_fila, str(datos["bien"]), 1, 0, 'C')
+            pdf.cell(w_inc, h_fila, str(datos["mal"]), 1, 0, 'C')
+            pdf.cell(w_porc, h_fila, f"{porcentaje:.1f}%", 1, 0, 'C')
+            pdf.cell(w_nota, h_fila, f"{nota:.1f}", 1, 1, 'C')
+
+        # --- 4. SECCIÓN RECOMENDACIONES ---
+        pdf.ln(15) # Espacio después de la tabla
+        
+        # Solo mostramos si hay errores
+        if recomendaciones_por_materia:
+            pdf.set_font("Arial", 'B', 14)
+            pdf.cell(0, 10, "Recomendaciones:", ln=1)
             
-            # Color texto (Verde si bien, Rojo si mal)
-            if resp["correcta"]:
-                pdf.set_text_color(0, 150, 0)
-            else:
-                pdf.set_text_color(200, 0, 0)
-                temas_a_revisar.add(resp["tema"])
+            pdf.set_font("Arial", size=12)
+            pdf.cell(0, 8, "Teniendo en cuenta el desempeño en cada materia, se recomienda practicar los siguientes temas:", ln=1)
+            pdf.ln(2)
 
-            pdf.cell(90, 10, resp["tema"], 1)
-            pdf.cell(30, 10, estado, 1)
-            pdf.cell(70, 10, recom, 1)
-            pdf.ln()
-
-        pdf.set_text_color(0, 0, 0) # Reset color
-
-        # Resumen final de temas
-        if temas_a_revisar:
+            # Iteramos por materia
+            for materia, temas_set in recomendaciones_por_materia.items():
+                if not temas_set: continue # Si el set está vacío, saltar
+                
+                # Título de la materia en Negrita
+                pdf.set_font("Arial", 'B', 12)
+                pdf.set_text_color(0, 0, 100) # Azul oscuro opcional
+                pdf.cell(0, 8, f"{materia}:", ln=1)
+                
+                # Lista de temas normal
+                pdf.set_font("Arial", size=11)
+                pdf.set_text_color(0, 0, 0) # Volver a negro
+                for tema in temas_set:
+                    # 'chr(149)' es un bullet point (punto negro)
+                    pdf.cell(10) # Sangría de 10mm
+                    pdf.cell(0, 6, f"{chr(149)} {tema}", ln=1)
+                
+                pdf.ln(3) # Espacio entre materias
+        else:
+            # Mensaje si sacó todo perfecto
             pdf.ln(10)
             pdf.set_font("Arial", 'B', 12)
-            pdf.cell(0, 10, "Plan de mejora sugerido:", ln=1)
-            pdf.set_font("Arial", size=11)
-            for tema in temas_a_revisar:
-                pdf.cell(0, 10, f"- Reforzar ejercicios de: {tema}", ln=1)
+            pdf.set_text_color(0, 150, 0)
+            pdf.cell(0, 10, "¡Excelente trabajo! No hay recomendaciones específicas.", ln=1, align='C')
 
-        nombre_archivo = f"reportes/Reporte_{self.estudiante['nombre'].replace(' ', '_')}.pdf"
+        # Guardar archivo
+        nombre_limpio = self.estudiante['nombre'].replace(" ", "_")
+        nombre_archivo = f"reportes/Resultado_{nombre_limpio}.pdf"
         pdf.output(nombre_archivo)
         return nombre_archivo
