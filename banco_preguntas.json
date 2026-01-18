@@ -569,119 +569,119 @@
         {
         "id": 1,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\1.png",
-        "correcta": "A",
+        "correcta": "B",
         "tema": "Relación de orden y comparación de números",
         "materia": "Matemáticas"
         },
         {
         "id": 2,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\2.png",
-        "correcta": "A",
+        "correcta": "B",
         "tema": "Resolución de problemas de sustracción",
         "materia": "Matemáticas"
         },
         {
         "id": 3,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\3.png",
-        "correcta": "A",
+        "correcta": "C",
         "tema": "Clasificación de seres según sus atributos (conteo de patas)",
         "materia": "Matemáticas"
         },
         {
         "id": 4,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\4.png",
-        "correcta": "A",
+        "correcta": "D",
         "tema": "Relación entre la adición de sumandos iguales y la multiplicación",
         "materia": "Matemáticas"
         },
         {
         "id": 5,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\5.png",
-        "correcta": "A",
+        "correcta": "C",
         "tema": "Representación gráfica de la multiplicación con material multibase",
         "materia": "Matemáticas"
         },
         {
         "id": 6,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\6.png",
-        "correcta": "A",
+        "correcta": "D",
         "tema": "Identificación de ejes de simetría en figuras",
         "materia": "Matemáticas"
         },
         {
         "id": 7,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\7.png",
-        "correcta": "A",
+        "correcta": "C",
         "tema": "Noción de simetría y reflexión axial",
         "materia": "Matemáticas"
         },
         {
         "id": 8,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\8.png",
-        "correcta": "A",
+        "correcta": "C",
         "tema": "Clasificación de ángulos por su abertura (ángulo obtuso)",
         "materia": "Matemáticas"
         },
         {
         "id": 9,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\9.png",
-        "correcta": "A",
+        "correcta": "D",
         "tema": "Propiedades de cuerpos geométricos (prismas y cilindros)",
         "materia": "Matemáticas"
         },
         {
         "id": 10,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\10.png",
-        "correcta": "A",
+        "correcta": "C",
         "tema": "Identificación de objetos por su forma geométrica",
         "materia": "Matemáticas"
         },
         {
         "id": 11,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\11.png",
-        "correcta": "A",
+        "correcta": "C",
         "tema": "Interpretación y suma de datos en tablas de frecuencia",
         "materia": "Matemáticas"
         },
         {
         "id": 12,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\12.png",
-        "correcta": "A",
+        "correcta": "B",
         "tema": "Análisis de información a partir de tablas",
         "materia": "Matemáticas"
         },
         {
         "id": 13,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\13.png",
-        "correcta": "A",
+        "correcta": "C",
         "tema": "Interpretación de pictogramas con escala unitaria",
         "materia": "Matemáticas"
         },
         {
         "id": 14,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\14.png",
-        "correcta": "A",
+        "correcta": "C",
         "tema": "Recolección de información mediante la observación",
         "materia": "Matemáticas"
         },
         {
         "id": 15,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\15.png",
-        "correcta": "A",
+        "correcta": "B",
         "tema": "Lectura e interpretación de gráficos de puntos",
         "materia": "Matemáticas"
         },
         {
         "id": 16,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\16.png",
-        "correcta": "A",
+        "correcta": "D",
         "tema": "Identificación de la frecuencia máxima (moda)",
         "materia": "Matemáticas"
         },
         {
         "id": 17,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\17.png",
-        "correcta": "A",
+        "correcta": "C",
         "tema": "Comprensión lectora de textos narrativos (fábula)",
         "materia": "Lenguaje"
         },
@@ -695,7 +695,7 @@
         {
         "id": 19,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\19.png",
-        "correcta": "A",
+        "correcta": "B",
         "tema": "Inferencia de sentimientos y desenlaces en cuentos",
         "materia": "Lenguaje"
         },
@@ -709,14 +709,14 @@
         {
         "id": 21,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\21.png",
-        "correcta": "A",
+        "correcta": "B",
         "tema": "Identificación de títulos y temáticas en medios audiovisuales",
         "materia": "Lenguaje"
         },
         {
         "id": 22,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\22.png",
-        "correcta": "A",
+        "correcta": "B",
         "tema": "Formas de transmisión de información en medios de comunicación",
         "materia": "Lenguaje"
         },
@@ -737,7 +737,7 @@
         {
         "id": 25,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\25.png",
-        "correcta": "A",
+        "correcta": "B",
         "tema": "Descripción de rasgos físicos y de personalidad (adjetivos)",
         "materia": "Lenguaje"
         },
@@ -751,14 +751,14 @@
         {
         "id": 27,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\27.png",
-        "correcta": "A",
+        "correcta": "C",
         "tema": "Estructura del texto narrativo (inicio del mito)",
         "materia": "Lenguaje"
         },
         {
         "id": 28,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\28.png",
-        "correcta": "A",
+        "correcta": "C",
         "tema": "Interpretación de elementos fantásticos en mitos y leyendas",
         "materia": "Lenguaje"
         },
@@ -772,21 +772,21 @@
         {
         "id": 30,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\30.png",
-        "correcta": "A",
+        "correcta": "C",
         "tema": "Producción de textos escritos (cartas personales)",
         "materia": "Lenguaje"
         },
         {
         "id": 31,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\31.png",
-        "correcta": "A",
+        "correcta": "C",
         "tema": "Estructura y datos necesarios en una invitación",
         "materia": "Lenguaje"
         },
         {
         "id": 32,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\32.png",
-        "correcta": "A",
+        "correcta": "B",
         "tema": "Uso de vocabulario adecuado según la situación comunicativa",
         "materia": "Lenguaje"
         },
@@ -800,14 +800,14 @@
         {
         "id": 34,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\34.png",
-        "correcta": "A",
+        "correcta": "C",
         "tema": "Adaptación al entorno y supervivencia de especies",
         "materia": "Ciencias Naturales"
         },
         {
         "id": 35,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\35.png",
-        "correcta": "A",
+        "correcta": "C",
         "tema": "Ciclo de vida de las plantas (germinación)",
         "materia": "Ciencias Naturales"
         },
@@ -821,21 +821,21 @@
         {
         "id": 37,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\37.png",
-        "correcta": "A",
+        "correcta": "C",
         "tema": "Propiedades físicas y resistencia de materiales",
         "materia": "Ciencias Naturales"
         },
         {
         "id": 38,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\38.png",
-        "correcta": "A",
+        "correcta": "C",
         "tema": "Magnetismo y atracción de materiales metálicos",
         "materia": "Ciencias Naturales"
         },
         {
         "id": 39,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\39.png",
-        "correcta": "A",
+        "correcta": "B",
         "tema": "Componentes y dimensiones de los cuerpos celestes en el sistema solar",
         "materia": "Ciencias Naturales"
         },
@@ -849,7 +849,7 @@
         {
         "id": 41,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\41.png",
-        "correcta": "A",
+        "correcta": "C",
         "tema": "Transformaciones químicas y descomposición de la materia",
         "materia": "Ciencias Naturales"
         },
@@ -863,14 +863,14 @@
         {
         "id": 43,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\43.png",
-        "correcta": "A",
+        "correcta": "C",
         "tema": "Viscosidad y velocidad de fluidos",
         "materia": "Ciencias Naturales"
         },
         {
         "id": 44,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\44.png",
-        "correcta": "A",
+        "correcta": "C",
         "tema": "Identificación de sustancias en estado sólido",
         "materia": "Ciencias Naturales"
         },
@@ -884,14 +884,14 @@
         {
         "id": 46,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\46.png",
-        "correcta": "A",
+        "correcta": "C",
         "tema": "Importancia de la salud dental",
         "materia": "Ciencias Naturales"
         },
         {
         "id": 47,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\47.png",
-        "correcta": "A",
+        "correcta": "B",
         "tema": "Identificación de herramientas de comunicación escrita",
         "materia": "Ciencias Naturales"
         },
@@ -905,14 +905,14 @@
         {
         "id": 49,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\49.png",
-        "correcta": "A",
+        "correcta": "C",
         "tema": "Transformación de paisajes (de rural a urbano)",
         "materia": "Ciencias Sociales"
         },
         {
         "id": 50,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\50.png",
-        "correcta": "A",
+        "correcta": "B",
         "tema": "Impacto de las construcciones en el espacio natural",
         "materia": "Ciencias Sociales"
         },
@@ -926,7 +926,7 @@
         {
         "id": 52,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\52.png",
-        "correcta": "A",
+        "correcta": "B",
         "tema": "Tipos de energía y medios de transporte sostenibles",
         "materia": "Ciencias Sociales"
         },
@@ -947,49 +947,49 @@
         {
         "id": 55,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\55.png",
-        "correcta": "A",
+        "correcta": "C",
         "tema": "Desventajas de la urbanización y la vida en la ciudad",
         "materia": "Ciencias Sociales"
         },
         {
         "id": 56,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\56.png",
-        "correcta": "A",
+        "correcta": "B",
         "tema": "Beneficios y características de la vida en el campo",
         "materia": "Ciencias Sociales"
         },
         {
         "id": 57,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\57.png",
-        "correcta": "A",
+        "correcta": "C",
         "tema": "Gobierno escolar y procesos de elección estudiantil",
         "materia": "Ciencias Sociales"
         },
         {
         "id": 58,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\58.png",
-        "correcta": "A",
+        "correcta": "C",
         "tema": "Cooperación y convivencia en el entorno educativo",
         "materia": "Ciencias Sociales"
         },
         {
         "id": 59,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\59.png",
-        "correcta": "A",
+        "correcta": "C",
         "tema": "Solidaridad y apoyo a poblaciones vulnerables",
         "materia": "Ciencias Sociales"
         },
         {
         "id": 60,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\60.png",
-        "correcta": "A",
+        "correcta": "C",
         "tema": "Organizaciones sociales de productores y trabajadores",
         "materia": "Ciencias Sociales"
         },
         {
         "id": 61,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\61.png",
-        "correcta": "A",
+        "correcta": "C",
         "tema": "Origen de los conflictos por diferencias de opinión",
         "materia": "Ciencias Sociales"
         },
@@ -1003,7 +1003,7 @@
         {
         "id": 63,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\63.png",
-        "correcta": "A",
+        "correcta": "B",
         "tema": "Relación entre actividades económicas y producción de alimentos",
         "materia": "Ciencias Sociales"
         },
@@ -1017,14 +1017,14 @@
         {
         "id": 65,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\65.png",
-        "correcta": "A",
+        "correcta": "C",
         "tema": "Vocabulario de verbos de movimiento (walking)",
         "materia": "Inglés"
         },
         {
         "id": 66,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\66.png",
-        "correcta": "A",
+        "correcta": "B",
         "tema": "Vocabulario de acciones de estudio (studying)",
         "materia": "Inglés"
         },
@@ -1038,21 +1038,40 @@
         {
         "id": 68,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\68.png",
-        "correcta": "A",
-        "tema": "Vocabulario de frutas (lemon)",
+        "correcta": "B",
+        "tema": "Vocabulario de frutas",
         "materia": "Inglés"
         },
         {
+        "id": 69,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\69.png",
+        "correcta": "B",
+        "tema": "Vocabulario de frutas",
+        "materia": "Inglés"
+        },        {
+        "id": 70,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\70.png",
+        "correcta": "B",
+        "tema": "Vocabulario de emociones",
+        "materia": "Inglés"
+        },        {
+        "id": 71,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\71.png",
+        "correcta": "A",
+        "tema": "Vocabulario de emociones",
+        "materia": "Inglés"
+        },             
+        {
         "id": 72,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\72.png",
-        "correcta": "A",
+        "correcta": "C",
         "tema": "Reconocimiento de números escritos (seventeen)",
         "materia": "Inglés"
         },
         {
         "id": 73,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\73.png",
-        "correcta": "A",
+        "correcta": "C",
         "tema": "Reconocimiento de números escritos (twenty-eight)",
         "materia": "Inglés"
         },
@@ -1066,21 +1085,21 @@
         {
         "id": 75,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\75.png",
-        "correcta": "A",
+        "correcta": "B",
         "tema": "Vocabulario de animales domésticos (cat)",
         "materia": "Inglés"
         },
         {
         "id": 76,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\76.png",
-        "correcta": "A",
+        "correcta": "B",
         "tema": "Vocabulario de números de dos cifras (forty-one)",
         "materia": "Inglés"
         },
         {
         "id": 77,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\77.png",
-        "correcta": "A",
+        "correcta": "B",
         "tema": "Vocabulario de números redondos (fifty)",
         "materia": "Inglés"
         },
@@ -1094,21 +1113,20 @@
         {
         "id": 79,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\79.png",
-        "correcta": "A",
+        "correcta": "C",
         "tema": "Vocabulario de ecosistemas (desert)",
         "materia": "Inglés"
         },
         {
         "id": 80,
         "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\tercero\\80.png",
-        "correcta": "A",
+        "correcta": "C",
         "tema": "Clasificación de animales (wild)",
         "materia": "Inglés"
         }
     ]
 
 
-    
 
 
 
