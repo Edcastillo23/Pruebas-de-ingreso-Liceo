@@ -19,6 +19,15 @@ class InterfazGrafica:
         pygame.display.set_caption("Prueba de admisión Liceo Los Ángeles")
         self.gestor = gestor_logica
         
+    # --- CARGA DE SONIDOS ---
+        try:
+            ruta_sonido = os.path.join("archivos", "sonido.wav")
+            self.sonido_click = pygame.mixer.Sound(ruta_sonido)
+            self.sonido_click.set_volume(0.5) # Volumen al 50%
+        except:
+            print("Advertencia: No se encontró 'sonido.wav' en la carpeta archivos.")
+            self.sonido_click = None # Para evitar errores si falta
+
         # Fuentes
         self.fuente = pygame.font.SysFont("Arial", 30)
         self.fuente_peq = pygame.font.SysFont("Arial", 22)
@@ -125,6 +134,9 @@ class InterfazGrafica:
                 if evento.button == 1:
                     for op, rect in self.rect_botones_examen.items():
                         if rect.collidepoint(evento.pos):
+                            # Sonido
+                            if self.sonido_click:
+                                self.sonido_click.play()
                             termino = self.gestor.procesar_respuesta(op)
                             if termino:
                                 self.estado = "FINAL"
