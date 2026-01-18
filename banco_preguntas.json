@@ -1124,7 +1124,1344 @@
         "tema": "Clasificación de animales (wild)",
         "materia": "Inglés"
         }
+    ],
+
+    "Grado 7": [
+        {
+        "id": 1,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\1.png",
+        "correcta": "B",
+        "tema": "Proporcionalidad directa",
+        "materia": "Matemáticas"
+        },
+        {
+        "id": 2,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\2.png",
+        "correcta": "B",
+        "tema": "Interpretación de tablas de datos",
+        "materia": "Matemáticas"
+        },
+        {
+        "id": 3,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\3.png",
+        "correcta": "A",
+        "tema": "Ecuaciones lineales simples",
+        "materia": "Matemáticas"
+        },
+        {
+        "id": 4,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\4.png",
+        "correcta": "D",
+        "tema": "Números enteros",
+        "materia": "Matemáticas"
+        },
+        {
+        "id": 5,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\5.png",
+        "correcta": "B",
+        "tema": "Números enteros",
+        "materia": "Matemáticas"
+        },
+        {
+        "id": 6,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\6.png",
+        "correcta": "C",
+        "tema": "Números racionales (fracciones equivalentes)",
+        "materia": "Matemáticas"
+        },
+        {
+        "id": 7,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\7.png",
+        "correcta": "C",
+        "tema": "Cuerpos y figuras geométricas (cuadrado)",
+        "materia": "Matemáticas"
+        },
+        {
+        "id": 8,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\8.png",
+        "correcta": "B",
+        "tema": "Cálculo de área superficial",
+        "materia": "Matemáticas"
+        },
+        {
+        "id": 9,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\9.png",
+        "correcta": "A",
+        "tema": "Plano cartesiano",
+        "materia": "Matemáticas"
+        },
+        {
+        "id": 10,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\10.png",
+        "correcta": "B",
+        "tema": "Plano cartesiano (desplazamiento)",
+        "materia": "Matemáticas"
+        },
+        {
+        "id": 11,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\11.png",
+        "correcta": "C",
+        "tema": "Plano cartesiano",
+        "materia": "Matemáticas"
+        },
+        {
+        "id": 12,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\12.png",
+        "correcta": "C",
+        "tema": "Suma de ángulos internos de polígonos",
+        "materia": "Matemáticas"
+        },
+        {
+        "id": 13,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\13.png",
+        "correcta": "A",
+        "tema": "Tablas de frecuencia",
+        "materia": "Matemáticas"
+        },
+        {
+        "id": 14,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\14.png",
+        "correcta": "A",
+        "tema": "Interpretación de gráficos estadísticos",
+        "materia": "Matemáticas"
+        },
+        {
+        "id": 15,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\15.png",
+        "correcta": "A",
+        "tema": "Medidas de tendencia central (media aritmética)",
+        "materia": "Matemáticas"
+        },
+        {
+        "id": 16,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\16.png",
+        "correcta": "B",
+        "tema": "Medidas de tendencia central (mediana)",
+        "materia": "Matemáticas"
+        },
+        {
+        "id": 17,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\17.png",
+        "correcta": "B",
+        "tema": "Tipos de variables estadísticas",
+        "materia": "Matemáticas"
+        },
+        {
+        "id": 18,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\18.png",
+        "correcta": "C",
+        "tema": "Interpretación de tablas de datos",
+        "materia": "Matemáticas"
+        },
+        {
+        "id": 19,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\19.png",
+        "correcta": "B",
+        "tema": "Comprensión lectora de textos narrativos",
+        "materia": "Lenguaje"
+        },
+        {
+        "id": 20,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\20.png",
+        "correcta": "D",
+        "tema": "Comprensión lectora de textos narrativos",
+        "materia": "Lenguaje"
+        },
+        {
+        "id": 21,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\21.png",
+        "correcta": "C",
+        "tema": "Inferencia de contexto",
+        "materia": "Lenguaje"
+        },
+        {
+        "id": 22,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\22.png",
+        "correcta": "A",
+        "tema": "Comprensión lectora de textos informativos",
+        "materia": "Lenguaje"
+        },
+        {
+        "id": 23,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\23.png",
+        "correcta": "D",
+        "tema": "Propósito comunicativo",
+        "materia": "Lenguaje"
+        },
+        {
+        "id": 24,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\24.png",
+        "correcta": "B",
+        "tema": "Signos de puntuación (paréntesis)",
+        "materia": "Lenguaje"
+        },
+        {
+        "id": 25,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\25.png",
+        "correcta": "D",
+        "tema": "Medios de comunicación masiva",
+        "materia": "Lenguaje"
+        },
+        {
+        "id": 26,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\26.png",
+        "correcta": "A",
+        "tema": "Identificación de la idea central",
+        "materia": "Lenguaje"
+        },
+        {
+        "id": 27,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\27.png",
+        "correcta": "B",
+        "tema": "Géneros periodísticos (objetividad)",
+        "materia": "Lenguaje"
+        },
+        {
+        "id": 28,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\28.png",
+        "correcta": "A",
+        "tema": "Textos instructivos",
+        "materia": "Lenguaje"
+        },
+        {
+        "id": 29,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\29.png",
+        "correcta": "C",
+        "tema": "Análisis léxico y semántico",
+        "materia": "Lenguaje"
+        },
+        {
+        "id": 30,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\30.png",
+        "correcta": "B",
+        "tema": "Elementos paratextuales (imágenes)",
+        "materia": "Lenguaje"
+        },
+        {
+        "id": 31,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\31.png",
+        "correcta": "A",
+        "tema": "Elementos paratextuales (iconografía)",
+        "materia": "Lenguaje"
+        },
+        {
+        "id": 32,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\32.png",
+        "correcta": "B",
+        "tema": "Inferencia de textos informativos",
+        "materia": "Lenguaje"
+        },
+        {
+        "id": 33,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\33.png",
+        "correcta": "C",
+        "tema": "Tipología textual",
+        "materia": "Lenguaje"
+        },
+        {
+        "id": 34,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\34.png",
+        "correcta": "D",
+        "tema": "Géneros literarios (identificación visual)",
+        "materia": "Lenguaje"
+        },
+        {
+        "id": 35,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\35.png",
+        "correcta": "C",
+        "tema": "Producción de textos argumentativos",
+        "materia": "Lenguaje"
+        },
+        {
+        "id": 36,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\36.png",
+        "correcta": "B",
+        "tema": "Coherencia y cohesión textual",
+        "materia": "Lenguaje"
+        },
+        {
+        "id": 37,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\37.png",
+        "correcta": "A",
+        "tema": "Biología celular (transporte de membrana)",
+        "materia": "Ciencias Naturales"
+        },
+        {
+        "id": 38,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\38.png",
+        "correcta": "C",
+        "tema": "Biología celular (permeabilidad selectiva)",
+        "materia": "Ciencias Naturales"
+        },
+        {
+        "id": 39,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\39.png",
+        "correcta": "C",
+        "tema": "Biología celular (osmosis)",
+        "materia": "Ciencias Naturales"
+        },
+        {
+        "id": 40,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\40.png",
+        "correcta": "A",
+        "tema": "Nutrición en los seres vivos (organismos heterótrofos)",
+        "materia": "Ciencias Naturales"
+        },
+        {
+        "id": 41,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\41.png",
+        "correcta": "A",
+        "tema": "Nutrición en los seres vivos",
+        "materia": "Ciencias Naturales"
+        },
+        {
+        "id": 42,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\42.png",
+        "correcta": "B",
+        "tema": "Organelos celulares (mitocondria)",
+        "materia": "Ciencias Naturales"
+        },
+        {
+        "id": 43,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\43.png",
+        "correcta": "D",
+        "tema": "Bioenergética (metabolismo)",
+        "materia": "Ciencias Naturales"
+        },
+        {
+        "id": 44,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\44.png",
+        "correcta": "C",
+        "tema": "Cinemática (trayectoria y distancia)",
+        "materia": "Ciencias Naturales"
+        },
+        {
+        "id": 45,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\45.png",
+        "correcta": "A",
+        "tema": "Cinemática (velocidad)",
+        "materia": "Ciencias Naturales"
+        },
+        {
+        "id": 46,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\46.png",
+        "correcta": "B",
+        "tema": "Cinemática (movimiento)",
+        "materia": "Ciencias Naturales"
+        },
+        {
+        "id": 47,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\47.png",
+        "correcta": "B",
+        "tema": "Propiedades de la materia (solubilidad)",
+        "materia": "Ciencias Naturales"
+        },
+        {
+        "id": 48,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\48.png",
+        "correcta": "B",
+        "tema": "Tabla periódica (símbolos químicos)",
+        "materia": "Ciencias Naturales"
+        },
+        {
+        "id": 49,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\49.png",
+        "correcta": "D",
+        "tema": "Propiedades de la materia (mezclas)",
+        "materia": "Ciencias Naturales"
+        },
+        {
+        "id": 50,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\50.png",
+        "correcta": "A",
+        "tema": "Anatomía humana (la piel)",
+        "materia": "Ciencias Naturales"
+        },
+        {
+        "id": 51,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\51.png",
+        "correcta": "C",
+        "tema": "Educación ambiental (contaminación del aire)",
+        "materia": "Ciencias Naturales"
+        },
+        {
+        "id": 52,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\52.png",
+        "correcta": "A",
+        "tema": "Salud pública (enfermedades infecciosas)",
+        "materia": "Ciencias Naturales"
+        },
+        {
+        "id": 53,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\53.png",
+        "correcta": "C",
+        "tema": "Hábitos de higiene",
+        "materia": "Ciencias Naturales"
+        },
+        {
+        "id": 54,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\54.png",
+        "correcta": "C",
+        "tema": "Sistema inmunológico (vacunas)",
+        "materia": "Ciencias Naturales"
+        },
+        {
+        "id": 55,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\55.png",
+        "correcta": "B",
+        "tema": "Origen del universo (Teoría del Big Bang)",
+        "materia": "Ciencias Sociales"
+        },
+        {
+        "id": 56,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\56.png",
+        "correcta": "C",
+        "tema": "Origen del universo (concepciones históricas)",
+        "materia": "Ciencias Sociales"
+        },
+        {
+        "id": 57,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\57.png",
+        "correcta": "A",
+        "tema": "Origen del universo (Teoría del Big Bang)",
+        "materia": "Ciencias Sociales"
+        },
+        {
+        "id": 58,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\58.png",
+        "correcta": "D",
+        "tema": "Cosmología (fuerza de gravedad)",
+        "materia": "Ciencias Sociales"
+        },
+        {
+        "id": 59,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\59.png",
+        "correcta": "B",
+        "tema": "Astronomía y sociedad",
+        "materia": "Ciencias Sociales"
+        },
+        {
+        "id": 60,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\60.png",
+        "correcta": "A",
+        "tema": "Evolución humana",
+        "materia": "Ciencias Sociales"
+        },
+        {
+        "id": 61,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\61.png",
+        "correcta": "C",
+        "tema": "Evolución humana (desarrollo tecnológico)",
+        "materia": "Ciencias Sociales"
+        },
+        {
+        "id": 62,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\62.png",
+        "correcta": "C",
+        "tema": "Ramas del poder público (poder ejecutivo)",
+        "materia": "Ciencias Sociales"
+        },
+        {
+        "id": 63,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\63.png",
+        "correcta": "A",
+        "tema": "Democracia y mecanismos de participación",
+        "materia": "Ciencias Sociales"
+        },
+        {
+        "id": 64,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\64.png",
+        "correcta": "C",
+        "tema": "Pluralismo y derechos étnicos",
+        "materia": "Ciencias Sociales"
+        },
+        {
+        "id": 65,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\65.png",
+        "correcta": "B",
+        "tema": "Identidad cultural",
+        "materia": "Ciencias Sociales"
+        },
+        {
+        "id": 66,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\66.png",
+        "correcta": "C",
+        "tema": "Dinámica terrestre (placas tectónicas)",
+        "materia": "Ciencias Sociales"
+        },
+        {
+        "id": 67,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\67.png",
+        "correcta": "B",
+        "tema": "Prevención de desastres",
+        "materia": "Ciencias Sociales"
+        },
+        {
+        "id": 68,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\68.png",
+        "correcta": "C",
+        "tema": "Convivencia escolar (acoso escolar)",
+        "materia": "Ciencias Sociales"
+        },
+        {
+        "id": 69,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\69.png",
+        "correcta": "A",
+        "tema": "Convivencia escolar (acoso escolar)",
+        "materia": "Ciencias Sociales"
+        },
+        {
+        "id": 70,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\70.png",
+        "correcta": "D",
+        "tema": "Convivencia escolar (acoso escolar)",
+        "materia": "Ciencias Sociales"
+        },
+        {
+        "id": 71,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\71.png",
+        "correcta": "A",
+        "tema": "Convivencia escolar (discriminación)",
+        "materia": "Ciencias Sociales"
+        },
+        {
+        "id": 72,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\72.png",
+        "correcta": "D",
+        "tema": "Resolución de conflictos",
+        "materia": "Ciencias Sociales"
+        },
+        {
+        "id": 73,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\73.png",
+        "correcta": "A",
+        "tema": "Vocabulary (family members)",
+        "materia": "Inglés"
+        },
+        {
+        "id": 74,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\74.png",
+        "correcta": "D",
+        "tema": "Vocabulary (feelings and emotions)",
+        "materia": "Inglés"
+        },
+        {
+        "id": 75,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\75.png",
+        "correcta": "C",
+        "tema": "Vocabulary (numbers)",
+        "materia": "Inglés"
+        },
+        {
+        "id": 76,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\76.png",
+        "correcta": "B",
+        "tema": "Vocabulary (occupations)",
+        "materia": "Inglés"
+        },
+        {
+        "id": 77,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\77.png",
+        "correcta": "A",
+        "tema": "Vocabulary (places)",
+        "materia": "Inglés"
+        },
+        {
+        "id": 78,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\78.png",
+        "correcta": "A",
+        "tema": "Vocabulary (numbers)",
+        "materia": "Inglés"
+        },
+        {
+        "id": 79,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\79.png",
+        "correcta": "C",
+        "tema": "Present continuous (actions)",
+        "materia": "Inglés"
+        },
+        {
+        "id": 80,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\80.png",
+        "correcta": "A",
+        "tema": "Prepositions and places",
+        "materia": "Inglés"
+        },
+        {
+        "id": 81,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\81.png",
+        "correcta": "B",
+        "tema": "Auxiliary verbs (do/does)",
+        "materia": "Inglés"
+        },
+        {
+        "id": 82,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\82.png",
+        "correcta": "C",
+        "tema": "Modal verbs (may)",
+        "materia": "Inglés"
+        },
+        {
+        "id": 83,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\83.png",
+        "correcta": "C",
+        "tema": "Sentence structure (adjectives)",
+        "materia": "Inglés"
+        },
+        {
+        "id": 84,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\84.png",
+        "correcta": "B",
+        "tema": "Sentence structure (verb to be)",
+        "materia": "Inglés"
+        },
+        {
+        "id": 85,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\85.png",
+        "correcta": "A",
+        "tema": "Sentence structure (wh-questions)",
+        "materia": "Inglés"
+        },
+        {
+        "id": 86,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\86.png",
+        "correcta": "D",
+        "tema": "Sentence structure (negation)",
+        "materia": "Inglés"
+        },
+        {
+        "id": 87,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\87.png",
+        "correcta": "C",
+        "tema": "Grammar (verb to be)",
+        "materia": "Inglés"
+        },
+        {
+        "id": 88,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\88.png",
+        "correcta": "C",
+        "tema": "Grammar (question formation)",
+        "materia": "Inglés"
+        },
+        {
+        "id": 89,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\89.png",
+        "correcta": "A",
+        "tema": "Vocabulary (irregular plurals)",
+        "materia": "Inglés"
+        },
+        {
+        "id": 90,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\septimo\\90.png",
+        "correcta": "D",
+        "tema": "Grammar (plural nouns)",
+        "materia": "Inglés"
+    }
+    ],
+
+    "Grado 8": [
+        {
+        "id": 1,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\1.png",
+        "correcta": "D",
+        "tema": "Valor absoluto",
+        "materia": "Matemáticas"
+        },
+        {
+        "id": 2,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\2.png",
+        "correcta": "A",
+        "tema": "Identificación de figuras geométricas",
+        "materia": "Matemáticas"
+        },
+        {
+        "id": 3,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\3.png",
+        "correcta": "A",
+        "tema": "Suma de ángulos internos de cuadriláteros",
+        "materia": "Matemáticas"
+        },
+        {
+        "id": 4,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\4.png",
+        "correcta": "B",
+        "tema": "Congruencia de triángulos",
+        "materia": "Matemáticas"
+        },
+        {
+        "id": 5,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\5.png",
+        "correcta": "B",
+        "tema": "Mínimo común múltiplo",
+        "materia": "Matemáticas"
+        },
+        {
+        "id": 6,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\6.png",
+        "correcta": "C",
+        "tema": "Interpretación de tablas de frecuencia",
+        "materia": "Matemáticas"
+        },
+        {
+        "id": 7,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\7.png",
+        "correcta": "C",
+        "tema": "Representación gráfica de datos",
+        "materia": "Matemáticas"
+        },
+        {
+        "id": 8,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\8.png",
+        "correcta": "C",
+        "tema": "Fracciones y proporciones",
+        "materia": "Matemáticas"
+        },
+        {
+        "id": 9,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\9.png",
+        "correcta": "D",
+        "tema": "Ubicación de números racionales en la recta numérica",
+        "materia": "Matemáticas"
+        },
+        {
+        "id": 10,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\10.png",
+        "correcta": "D",
+        "tema": "Perímetro de figuras geométricas",
+        "materia": "Matemáticas"
+        },
+        {
+        "id": 11,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\11.png",
+        "correcta": "C",
+        "tema": "Área y perímetro en cuadrículas",
+        "materia": "Matemáticas"
+        },
+        {
+        "id": 12,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\12.png",
+        "correcta": "A",
+        "tema": "Combinatoria",
+        "materia": "Matemáticas"
+        },
+        {
+        "id": 13,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\13.png",
+        "correcta": "B",
+        "tema": "Combinatoria",
+        "materia": "Matemáticas"
+        },
+        {
+        "id": 14,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\14.png",
+        "correcta": "D",
+        "tema": "Escala en planos",
+        "materia": "Matemáticas"
+        },
+        {
+        "id": 15,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\15.png",
+        "correcta": "C",
+        "tema": "Escala en planos",
+        "materia": "Matemáticas"
+        },
+        {
+        "id": 16,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\16.png",
+        "correcta": "B",
+        "tema": "Radicación y potenciación",
+        "materia": "Matemáticas"
+        },
+        {
+        "id": 17,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\17.png",
+        "correcta": "A",
+        "tema": "Secuencias y potenciación",
+        "materia": "Matemáticas"
+        },
+        {
+        "id": 18,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\18.png",
+        "correcta": "D",
+        "tema": "Probabilidad y diagramas circulares",
+        "materia": "Matemáticas"
+        },
+        {
+        "id": 19,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\19.png",
+        "correcta": "D",
+        "tema": "Ecuaciones de primer grado",
+        "materia": "Matemáticas"
+        },
+        {
+        "id": 20,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\20.png",
+        "correcta": "B",
+        "tema": "Probabilidad y diagramas de árbol",
+        "materia": "Matemáticas"
+        },
+        {
+        "id": 21,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\21.png",
+        "correcta": "D",
+        "tema": "Tipología textual y género dramático",
+        "materia": "Lenguaje"
+        },
+        {
+        "id": 22,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\22.png",
+        "correcta": "C",
+        "tema": "Tipos de conflicto en la narración",
+        "materia": "Lenguaje"
+        },
+        {
+        "id": 23,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\23.png",
+        "correcta": "B",
+        "tema": "Características de la comedia",
+        "materia": "Lenguaje"
+        },
+        {
+        "id": 24,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\24.png",
+        "correcta": "B",
+        "tema": "Clasificación de textos periodísticos",
+        "materia": "Lenguaje"
+        },
+        {
+        "id": 25,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\25.png",
+        "correcta": "A",
+        "tema": "Comprensión lectora e identificación de destinatarios",
+        "materia": "Lenguaje"
+        },
+        {
+        "id": 26,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\26.png",
+        "correcta": "B",
+        "tema": "Identificación de títulos en reportajes",
+        "materia": "Lenguaje"
+        },
+        {
+        "id": 27,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\27.png",
+        "correcta": "C",
+        "tema": "Características del reportaje",
+        "materia": "Lenguaje"
+        },
+        {
+        "id": 28,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\28.png",
+        "correcta": "C",
+        "tema": "Interpretación de textos sobre protesta social",
+        "materia": "Lenguaje"
+        },
+        {
+        "id": 29,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\29.png",
+        "correcta": "C",
+        "tema": "Inferencia de situaciones literarias",
+        "materia": "Lenguaje"
+        },
+        {
+        "id": 30,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\30.png",
+        "correcta": "C",
+        "tema": "Crítica social en la literatura",
+        "materia": "Lenguaje"
+        },
+        {
+        "id": 31,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\31.png",
+        "correcta": "A",
+        "tema": "Identificación de temas centrales",
+        "materia": "Lenguaje"
+        },
+        {
+        "id": 32,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\32.png",
+        "correcta": "C",
+        "tema": "Coherencia y sustentación de ideas",
+        "materia": "Lenguaje"
+        },
+        {
+        "id": 33,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\33.png",
+        "correcta": "D",
+        "tema": "Analogías y relaciones conceptuales",
+        "materia": "Lenguaje"
+        },
+        {
+        "id": 34,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\34.png",
+        "correcta": "B",
+        "tema": "Recuperación de información explícita",
+        "materia": "Lenguaje"
+        },
+        {
+        "id": 35,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\35.png",
+        "correcta": "C",
+        "tema": "Estructura del texto narrativo",
+        "materia": "Lenguaje"
+        },
+        {
+        "id": 36,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\36.png",
+        "correcta": "C",
+        "tema": "Propósito y reflexión sobre el poder",
+        "materia": "Lenguaje"
+        },
+        {
+        "id": 37,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\37.png",
+        "correcta": "A",
+        "tema": "Uso de conectores lógicos",
+        "materia": "Lenguaje"
+        },
+        {
+        "id": 38,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\38.png",
+        "correcta": "A",
+        "tema": "Formatos de divulgación científica",
+        "materia": "Lenguaje"
+        },
+        {
+        "id": 39,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\39.png",
+        "correcta": "D",
+        "tema": "Uso de conectores lógicos",
+        "materia": "Lenguaje"
+        },
+        {
+        "id": 40,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\40.png",
+        "correcta": "C",
+        "tema": "Objetividad en artículos informativos",
+        "materia": "Lenguaje"
+        },
+        {
+        "id": 41,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\41.png",
+        "correcta": "A",
+        "tema": "Fase independiente de la fotosíntesis",
+        "materia": "Ciencias Naturales"
+        },
+        {
+        "id": 42,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\42.png",
+        "correcta": "C",
+        "tema": "Órganos vegetales en la fotosíntesis",
+        "materia": "Ciencias Naturales"
+        },
+        {
+        "id": 43,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\43.png",
+        "correcta": "D",
+        "tema": "Productos de la fotosíntesis",
+        "materia": "Ciencias Naturales"
+        },
+        {
+        "id": 44,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\44.png",
+        "correcta": "B",
+        "tema": "Relación entre respiración y fotosíntesis",
+        "materia": "Ciencias Naturales"
+        },
+        {
+        "id": 45,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\45.png",
+        "correcta": "A",
+        "tema": "Teorías del origen de la vida",
+        "materia": "Ciencias Naturales"
+        },
+        {
+        "id": 46,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\46.png",
+        "correcta": "C",
+        "tema": "Energía potencial gravitacional",
+        "materia": "Ciencias Naturales"
+        },
+        {
+        "id": 47,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\47.png",
+        "correcta": "C",
+        "tema": "Energía cinética en sistemas oscilatorios",
+        "materia": "Ciencias Naturales"
+        },
+        {
+        "id": 48,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\48.png",
+        "correcta": "D",
+        "tema": "Cambios en la energía cinética",
+        "materia": "Ciencias Naturales"
+        },
+        {
+        "id": 49,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\49.png",
+        "correcta": "C",
+        "tema": "Interpretación de gráficas de energía",
+        "materia": "Ciencias Naturales"
+        },
+        {
+        "id": 50,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\50.png",
+        "correcta": "A",
+        "tema": "Energía potencial en sistemas mecánicos",
+        "materia": "Ciencias Naturales"
+        },
+        {
+        "id": 51,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\51.png",
+        "correcta": "C",
+        "tema": "Electrones de valencia",
+        "materia": "Ciencias Naturales"
+        },
+        {
+        "id": 52,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\52.png",
+        "correcta": "B",
+        "tema": "Tipos de enlaces químicos",
+        "materia": "Ciencias Naturales"
+        },
+        {
+        "id": 53,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\53.png",
+        "correcta": "D",
+        "tema": "Propiedades periódicas y electronegatividad",
+        "materia": "Ciencias Naturales"
+        },
+        {
+        "id": 54,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\54.png",
+        "correcta": "A",
+        "tema": "Concepto de electronegatividad",
+        "materia": "Ciencias Naturales"
+        },
+        {
+        "id": 55,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\55.png",
+        "correcta": "D",
+        "tema": "Configuración electrónica",
+        "materia": "Ciencias Naturales"
+        },
+        {
+        "id": 56,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\56.png",
+        "correcta": "A",
+        "tema": "Recursos energéticos y sostenibilidad",
+        "materia": "Ciencias Naturales"
+        },
+        {
+        "id": 57,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\57.png",
+        "correcta": "A",
+        "tema": "Conservación de alimentos",
+        "materia": "Ciencias Naturales"
+        },
+        {
+        "id": 58,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\58.png",
+        "correcta": "D",
+        "tema": "Clasificación de fuentes de energía",
+        "materia": "Ciencias Naturales"
+        },
+        {
+        "id": 59,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\59.png",
+        "correcta": "C",
+        "tema": "Impacto ambiental de procesos industriales",
+        "materia": "Ciencias Naturales"
+        },
+        {
+        "id": 60,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\60.png",
+        "correcta": "C",
+        "tema": "Diseño experimental y método científico",
+        "materia": "Ciencias Naturales"
+        },
+        {
+        "id": 61,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\61.png",
+        "correcta": "C",
+        "tema": "Comparación entre Derechos Humanos y Constitución Política",
+        "materia": "Sociales"
+        },
+        {
+        "id": 62,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\62.png",
+        "correcta": "D",
+        "tema": "Mecanismos contra la discriminación",
+        "materia": "Sociales"
+        },
+        {
+        "id": 63,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\63.png",
+        "correcta": "A",
+        "tema": "Funciones de la Defensoría del Pueblo",
+        "materia": "Sociales"
+        },
+        {
+        "id": 64,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\64.png",
+        "correcta": "D",
+        "tema": "Acción de tutela",
+        "materia": "Sociales"
+        },
+        {
+        "id": 65,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\65.png",
+        "correcta": "B",
+        "tema": "Acción de tutela",
+        "materia": "Sociales"
+        },
+        {
+        "id": 66,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\66.png",
+        "correcta": "B",
+        "tema": "Características de la negociación",
+        "materia": "Sociales"
+        },
+        {
+        "id": 67,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\67.png",
+        "correcta": "A",
+        "tema": "Resolución de conflictos escolares",
+        "materia": "Sociales"
+        },
+        {
+        "id": 68,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\68.png",
+        "correcta": "A",
+        "tema": "Normas de convivencia ciudadana",
+        "materia": "Sociales"
+        },
+        {
+        "id": 69,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\69.png",
+        "correcta": "C",
+        "tema": "Resolución de problemas comunitarios",
+        "materia": "Sociales"
+        },
+        {
+        "id": 70,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\70.png",
+        "correcta": "D",
+        "tema": "Esclavitud en la minería colonial",
+        "materia": "Sociales"
+        },
+        {
+        "id": 71,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\71.png",
+        "correcta": "B",
+        "tema": "Consecuencias de la explotación del oro",
+        "materia": "Sociales"
+        },
+        {
+        "id": 72,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\72.png",
+        "correcta": "A",
+        "tema": "Concepto de extractivismo",
+        "materia": "Sociales"
+        },
+        {
+        "id": 73,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\73.png",
+        "correcta": "B",
+        "tema": "Economía y esclavismo colonial",
+        "materia": "Sociales"
+        },
+        {
+        "id": 74,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\74.png",
+        "correcta": "D",
+        "tema": "Aportes indígenas a la economía colonial",
+        "materia": "Sociales"
+        },
+        {
+        "id": 75,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\75.png",
+        "correcta": "C",
+        "tema": "Procesos de dominación histórica",
+        "materia": "Sociales"
+        },
+        {
+        "id": 76,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\76.png",
+        "correcta": "B",
+        "tema": "Influencia religiosa en pueblos indígenas",
+        "materia": "Sociales"
+        },
+        {
+        "id": 77,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\77.png",
+        "correcta": "D",
+        "tema": "Relaciones de poder y paternalismo colonial",
+        "materia": "Sociales"
+        },
+        {
+        "id": 78,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\78.png",
+        "correcta": "C",
+        "tema": "Teoría heliocéntrica",
+        "materia": "Sociales"
+        },
+        {
+        "id": 79,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\79.png",
+        "correcta": "C",
+        "tema": "Teoría geocéntrica",
+        "materia": "Sociales"
+        },
+        {
+        "id": 80,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\80.png",
+        "correcta": "D",
+        "tema": "Modelos históricos del universo",
+        "materia": "Sociales"
+        },
+        {
+        "id": 81,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\81.png",
+        "correcta": "B",
+        "tema": "Vocabulario de actividades físicas",
+        "materia": "Inglés"
+        },
+        {
+        "id": 82,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\82.png",
+        "correcta": "D",
+        "tema": "Vocabulario de higiene personal",
+        "materia": "Inglés"
+        },
+        {
+        "id": 83,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\83.png",
+        "correcta": "D",
+        "tema": "Vocabulario de sensaciones",
+        "materia": "Inglés"
+        },
+        {
+        "id": 84,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\84.png",
+        "correcta": "C",
+        "tema": "Vocabulario de estados de ánimo",
+        "materia": "Inglés"
+        },
+        {
+        "id": 85,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\85.png",
+        "correcta": "C",
+        "tema": "Auxiliares en diálogos cortos",
+        "materia": "Inglés"
+        },
+        {
+        "id": 86,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\86.png",
+        "correcta": "C",
+        "tema": "Concordancia sujeto-verbo",
+        "materia": "Inglés"
+        },
+        {
+        "id": 87,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\87.png",
+        "correcta": "C",
+        "tema": "Expresiones de tiempo",
+        "materia": "Inglés"
+        },
+        {
+        "id": 88,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\88.png",
+        "correcta": "C",
+        "tema": "Tiempo futuro con will",
+        "materia": "Inglés"
+        },
+        {
+        "id": 89,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\89.png",
+        "correcta": "B",
+        "tema": "Estructura de oraciones en pasado",
+        "materia": "Inglés"
+        },
+        {
+        "id": 90,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\90.png",
+        "correcta": "C",
+        "tema": "Estructura de oraciones con cláusulas relativas",
+        "materia": "Inglés"
+        },
+        {
+        "id": 91,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\91.png",
+        "correcta": "A",
+        "tema": "Conectores de causa",
+        "materia": "Inglés"
+        },
+        {
+        "id": 92,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\92.png",
+        "correcta": "B",
+        "tema": "Secuenciadores en instrucciones",
+        "materia": "Inglés"
+        },
+        {
+        "id": 93,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\93.png",
+        "correcta": "D",
+        "tema": "Verbos en pasado simple",
+        "materia": "Inglés"
+        },
+        {
+        "id": 94,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\94.png",
+        "correcta": "A",
+        "tema": "Verbos modales",
+        "materia": "Inglés"
+        },
+        {
+        "id": 95,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\95.png",
+        "correcta": "B",
+        "tema": "Verbos modales de posibilidad",
+        "materia": "Inglés"
+        },
+        {
+        "id": 96,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\96.png",
+        "correcta": "D",
+        "tema": "Presente perfecto",
+        "materia": "Inglés"
+        },
+        {
+        "id": 97,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\97.png",
+        "correcta": "A",
+        "tema": "Comprensión de lectura sobre hechos específicos",
+        "materia": "Inglés"
+        },
+        {
+        "id": 98,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\98.png",
+        "correcta": "C",
+        "tema": "Relación de causa y efecto en textos",
+        "materia": "Inglés"
+        },
+        {
+        "id": 99,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\99.png",
+        "correcta": "C",
+        "tema": "Identificación de diferencias en textos descriptivos",
+        "materia": "Inglés"
+        },
+        {
+        "id": 100,
+        "imagen": "C:\\Users\\EDINSON-CASTILLO\\Desktop\\pruebas_ingreso\\archivos\\img\\octavo\\100.png",
+        "correcta": "B",
+        "tema": "Identificación de incertidumbre",
+        "materia": "Inglés"
+        }
     ]
+
 
 
 
