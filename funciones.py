@@ -2,6 +2,8 @@ import json
 import os
 from fpdf import FPDF
 from datetime import datetime
+from pathlib import Path
+import os
 
 class GestorExamen:
     def __init__(self):
@@ -51,14 +53,11 @@ class GestorExamen:
         return self.indice_actual >= len(self.preguntas)
 
     def generar_reporte_pdf(self):
-        if not os.path.exists("reportes"):
-            os.makedirs("reportes")
-
         # --- 1. PROCESAR DATOS (ESTADÍSTICAS Y RECOMENDACIONES) ---
         stats = {}
         # Usamos un diccionario de sets para evitar temas repetidos si fallan varias del mismo tema
         recomendaciones_por_materia = {} 
-        
+
         # Inicializamos algunas materias para mantener orden (opcional)
         materias_orden = ["Matemáticas", "Lengua Castellana", "Naturales", "Sociales"]
         for m in materias_orden:
@@ -87,13 +86,11 @@ class GestorExamen:
         # --- 2. INICIO DEL PDF ---
         pdf = FPDF()
         pdf.add_page()
-        # --- CÓDIGO NUEVO PARA EL LOGO ---
-        # Asegúrate de que el nombre coincida con tu archivo
-        ruta_logo = os.path.join("archivos", "logo.png") 
         
+        # --- LOGO ---
+        ruta_logo = os.path.join("archivos", "logo.png") 
         if os.path.exists(ruta_logo):
             pdf.image(ruta_logo, x=10, y=8, w=25)
-
 
         pdf.set_font("Arial", size=11)
 
@@ -108,7 +105,7 @@ class GestorExamen:
         pdf.cell(0, 8, f"Estudiante: {self.estudiante['nombre']}", ln=1)
         pdf.cell(0, 8, f"Grado al que aspira: {self.estudiante['grado']}", ln=1)
         pdf.cell(0, 8, f"Fecha: {datetime.now().strftime('%d/%m/%Y')}", ln=1)
-        pdf.cell(0,8, f"Hora: {datetime.now().strftime('%H:%M:%S')}", ln=1)
+        pdf.cell(0, 8, f"Hora: {datetime.now().strftime('%H:%M:%S')}", ln=1)
         pdf.ln(10)
 
         # --- 3. DIBUJAR LA TABLA ---
@@ -137,8 +134,6 @@ class GestorExamen:
         # Cuerpo Tabla
         pdf.set_font("Arial", size=10)
         
-        # Iteramos stats. Si usaste materias_orden, esto respeta ese orden.
-        # Si hay materias nuevas en el JSON, las agregamos al final.
         lista_materias = list(stats.keys())
         
         for materia in lista_materias:
@@ -156,9 +151,8 @@ class GestorExamen:
             pdf.cell(w_nota, h_fila, f"{nota:.1f}", 1, 1, 'C')
 
         # --- 4. SECCIÓN RECOMENDACIONES ---
-        pdf.ln(15) # Espacio después de la tabla
+        pdf.ln(15) 
         
-        # Solo mostramos si hay errores
         if recomendaciones_por_materia:
             pdf.set_font("Arial", 'B', 14)
             pdf.cell(0, 10, "Recomendaciones:", ln=1)
@@ -167,33 +161,49 @@ class GestorExamen:
             pdf.cell(0, 8, "Teniendo en cuenta el desempeño en cada materia, se recomienda practicar los siguientes temas:", ln=1)
             pdf.ln(2)
 
-            # Iteramos por materia
             for materia, temas_set in recomendaciones_por_materia.items():
-                if not temas_set: continue # Si el set está vacío, saltar
+                if not temas_set: continue 
                 
-                # Título de la materia en Negrita
                 pdf.set_font("Arial", 'B', 12)
-                pdf.set_text_color(0, 0, 100) # Azul oscuro opcional
+                pdf.set_text_color(0, 0, 100) 
                 pdf.cell(0, 8, f"{materia}:", ln=1)
                 
-                # Lista de temas normal
                 pdf.set_font("Arial", size=11)
-                pdf.set_text_color(0, 0, 0) # Volver a negro
+                pdf.set_text_color(0, 0, 0) 
                 for tema in temas_set:
-                    # 'chr(149)' es un bullet point (punto negro)
-                    pdf.cell(10) # Sangría de 10mm
+                    pdf.cell(10) 
                     pdf.cell(0, 6, f"{chr(149)} {tema}", ln=1)
                 
-                pdf.ln(3) # Espacio entre materias
+                pdf.ln(3)
         else:
-            # Mensaje si sacó todo perfecto
             pdf.ln(10)
             pdf.set_font("Arial", 'B', 12)
             pdf.set_text_color(0, 150, 0)
             pdf.cell(0, 10, "¡Excelente trabajo! No hay recomendaciones específicas.", ln=1, align='C')
 
-        # Guardar archivo
+        
+        # A. Detectar carpeta de descargas del usuario actual
+        ruta_descargas = Path.home() / "Downloads"
+        
+        # B. Limpiar nombre del estudiante para el archivo
         nombre_limpio = self.estudiante['nombre'].replace(" ", "_")
-        nombre_archivo = f"reportes/Resultado_{nombre_limpio}.pdf"
-        pdf.output(nombre_archivo)
-        return nombre_archivo
+        
+        # C. Crear nombre del archivo
+        nombre_archivo = f"Resultado_{nombre_limpio}.pdf"
+        
+        # D. Unir carpeta descargas + nombre archivo
+        ruta_completa = ruta_descargas / nombre_archivo
+        
+        # E. Convertir a string (necesario para fpdf)
+        ruta_final_str = str(ruta_completa)
+        
+        try:
+            pdf.output(ruta_final_str)
+            print(f"Reporte guardado exitosamente en: {ruta_final_str}")
+        except PermissionError:
+            # Fallback por si el archivo está abierto o hay error de permisos
+            print("Error: No se pudo guardar en Descargas (¿Archivo abierto?). Guardando en carpeta local.")
+            ruta_final_str = f"Resultado_{nombre_limpio}.pdf"
+            pdf.output(ruta_final_str)
+
+        return ruta_final_str

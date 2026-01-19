@@ -142,7 +142,7 @@ class InterfazGrafica:
                                 self.estado = "FINAL"
                                 try:
                                     ruta_pdf = self.gestor.generar_reporte_pdf()
-                                    self.mensaje_final = f"Informe generado: {os.path.basename(ruta_pdf)}"
+                                    self.mensaje_final = f"Nombre del archivo: {os.path.basename(ruta_pdf)}"
                                 except Exception as e:
                                     self.mensaje_final = f"Error generando PDF: {str(e)}"
 
@@ -260,11 +260,19 @@ class InterfazGrafica:
             txt_fin = self.fuente_grande.render("¡Examen Finalizado!", True, C_BOTON)
             rect_fin = txt_fin.get_rect(center=(ANCHO//2, ALTO//2 - 40))
             self.pantalla.blit(txt_fin, rect_fin)
+
+            txt_fin = self.fuente_grande.render("Encontrarás el reporte en la carpeta DESCARGAS", True, C_BOTON)
+            rect_fin = txt_fin.get_rect(center=(ANCHO//2, ALTO//2 + 40))
+            self.pantalla.blit(txt_fin, rect_fin)
             
             txt_ruta = self.fuente_peq.render(self.mensaje_final, True, C_BOTON_SEL)
-            rect_ruta = txt_ruta.get_rect(center=(ANCHO//2, ALTO//2 + 20))
+            rect_ruta = txt_ruta.get_rect(center=(ANCHO//2, ALTO//2 + 100))
             self.pantalla.blit(txt_ruta, rect_ruta)
             
-            txt_salir = self.fuente_peq.render("Cierre la ventana para salir", True, C_TEXTO)
+            txt_salir = self.fuente_peq.render("Avísale a la persona encargada de tu prueba", True, C_TEXTO)
+            rect_salir = txt_salir.get_rect(center=(ANCHO//2, ALTO - 100))
+            self.pantalla.blit(txt_salir, rect_salir)
+
+            txt_salir = self.fuente_peq.render("Cierra la ventana para salir", True, C_TEXTO)
             rect_salir = txt_salir.get_rect(center=(ANCHO//2, ALTO - 50))
             self.pantalla.blit(txt_salir, rect_salir)
