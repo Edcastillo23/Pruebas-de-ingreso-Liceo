@@ -219,18 +219,50 @@ class InterfazGrafica:
             pregunta = self.gestor.obtener_pregunta_actual()
             
             if pregunta:
-                # 1. Imagen de la pregunta
-                ruta_img = os.path.join("activos", "imagenes", pregunta["imagen"])
+                if getattr(sys, 'frozen', False):
+                    # Si es un ejecutable (.exe), la ruta base es donde está el archivo .exe
+                    base_path = os.path.dirname(sys.executable)
+                else:
+                    # Si estamos en desarrollo (.py), la ruta base es donde está el script
+                    base_path = os.path.dirname(os.path.abspath(__file__))
+
+                # ---------------------------------------------------------
+                # 2. PREPARAR LA RUTA DE LA IMAGEN
+                # ---------------------------------------------------------
+                ruta_del_json = pregunta["imagen"]
+                
+                # Limpiamos la ruta:
+                # a. Reemplazamos las barras según el sistema operativo (Win/Mac/Linux)
+                ruta_del_json = ruta_del_json.replace("\\", os.sep).replace("/", os.sep)
+                
+                # b. Quitamos barras al inicio si las hay (ej: "\archivos" -> "archivos")
+                #    Esto es vital, porque si tiene barra al inicio, os.path.join falla.
+                ruta_del_json = ruta_del_json.lstrip(os.sep)
+
+                # c. Unimos la ruta base + la ruta del json
+                ruta_final_absoluta = os.path.join(base_path, ruta_del_json)
+
+                # ---------------------------------------------------------
+                # 3. CARGAR LA IMAGEN
+                # ---------------------------------------------------------
                 try:
-                    # Intentamos cargar la imagen
-                    img = pygame.image.load(ruta_img)
+                    # Imprimimos para depurar (solo se ve si lanzas con consola)
+                    # print(f"Intentando cargar: {ruta_final_absoluta}")
+                    
+                    img = pygame.image.load(ruta_final_absoluta)
                     img_esc = self.escalar_imagen(img)
                     x_pos = (ANCHO - img_esc.get_width()) // 2
                     self.pantalla.blit(img_esc, (x_pos, 50))
+                    
                 except Exception as e:
                     # Fallback visual si no encuentra la imagen
-                    pygame.draw.rect(self.pantalla, C_NEGRO, (50, 50, 700, 400))
-                    txt_err = self.fuente_peq.render(f"Imagen no encontrada: {pregunta['imagen']}", True, C_BLANCO)
+                    # Esto ayuda a saber qué ruta intentó buscar
+                    print(f"Error cargando imagen: {e}") 
+                    pygame.draw.rect(self.pantalla, (0, 0, 0), (50, 50, 700, 400)) # C_NEGRO directo por si acaso
+                    
+                    # Mostramos en pantalla qué ruta falló (útil para corregir)
+                    mensaje_error = f"No se halló: {ruta_del_json}"
+                    txt_err = self.fuente_peq.render(mensaje_error, True, (255, 255, 255))
                     self.pantalla.blit(txt_err, (60, 200))
 
                 # 2. Botones de opciones (A, B, C, D)

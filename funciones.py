@@ -13,8 +13,11 @@ class GestorExamen:
         self.estudiante = {"nombre": "", "grado": ""}
         self.indice_actual = 0
 
+
     def _cargar_banco(self):
-        ruta = 'banco_preguntas.json'
+
+        
+        ruta = os.path.join("archivos", 'banco_preguntas.json')
         if not os.path.exists(ruta):
             return {}
         with open(ruta, 'r', encoding='utf-8') as f:

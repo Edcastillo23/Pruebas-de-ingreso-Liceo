@@ -1,5 +1,15 @@
 from funciones import GestorExamen
 from interfaz import InterfazGrafica
+import sys
+import os
+
+
+if getattr(sys, 'frozen', False):
+    #Buscar la ruta correcta cuando se ejecuta como .exe
+    os.chdir(os.path.dirname(sys.executable))
+else:
+    # Si estamos en desarrollo (.py), la ruta base es donde está el script
+    base_path = os.path.dirname(os.path.abspath(__file__))
 
 def main():
     # 1. Instanciamos la lógica (Cargamos datos)
