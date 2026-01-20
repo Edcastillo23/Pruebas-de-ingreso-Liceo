@@ -3,7 +3,7 @@ import sys
 import os
 
 # --- CONSTANTES DE DISEÑO ---
-ANCHO, ALTO = 1000, 750
+ANCHO, ALTO = 1180, 620
 C_FONDO = (245, 245, 245)
 C_BOTON = (70, 130, 180)       # Azul estandar
 C_BOTON_SEL = (0, 150, 100)    # Verde para selección
@@ -39,44 +39,44 @@ class InterfazGrafica:
         self.grado_seleccionado = None
         self.mensaje_final = ""
         
-        # Botones de Opción (A, B, C, D) para el Examen
-        y_pos = 630
+        # Botones de Opción (A, B, C, D) 
+        #y_pos = 592
         ancho_btn = 180
-        espacio = 50 # Espacio entre botones
+        alto_btn = 60
+        espacio = 30 # Espacio entre botones
 
-        inicio_x = 65
+        x_pos = ANCHO - ancho_btn - 20
+        inicio_y = 125
 
         self.rect_botones_examen = {
-            "A": pygame.Rect(inicio_x, y_pos, ancho_btn, 60),
-            "B": pygame.Rect(inicio_x + (ancho_btn + espacio), y_pos, ancho_btn, 60),
-            "C": pygame.Rect(inicio_x + (ancho_btn + espacio)*2, y_pos, ancho_btn, 60),
-            "D": pygame.Rect(inicio_x + (ancho_btn + espacio)*3, y_pos, ancho_btn, 60)
+            "A": pygame.Rect(x_pos, inicio_y, ancho_btn, alto_btn),
+            "B": pygame.Rect(x_pos, inicio_y + (alto_btn + espacio), ancho_btn, alto_btn),
+            "C": pygame.Rect(x_pos, inicio_y + (alto_btn + espacio)*2, ancho_btn, alto_btn),
+            "D": pygame.Rect(x_pos, inicio_y + (alto_btn + espacio)*3, ancho_btn, alto_btn)
         }
 
         # Botones de Selección de Grado para el Menú
-        # Keys deben coincidir con las claves del JSON
         y_f1 = 420
         y_f2 = 480     
         
         self.rect_botones_grado = {
             # Fila 1
-            "Grado 1": pygame.Rect(260, y_f1, 80, 40),
-            "Grado 2": pygame.Rect(360, y_f1, 80, 40),
-            "Grado 3": pygame.Rect(460, y_f1, 80, 40),
-            "Grado 4": pygame.Rect(560, y_f1, 80, 40),
-            "Grado 5": pygame.Rect(660, y_f1, 80, 40),
+            "Grado 1": pygame.Rect(340, y_f1, 80, 40),
+            "Grado 2": pygame.Rect(440, y_f1, 80, 40),
+            "Grado 3": pygame.Rect(540, y_f1, 80, 40),
+            "Grado 4": pygame.Rect(640, y_f1, 80, 40),
+            "Grado 5": pygame.Rect(740, y_f1, 80, 40),
             
             # Fila 2
-            "Grado 6": pygame.Rect(310, y_f2, 80, 40),
-            "Grado 7": pygame.Rect(410, y_f2, 80, 40),
-            "Grado 8": pygame.Rect(510, y_f2, 80, 40),
-            "Grado 9": pygame.Rect(610, y_f2, 80, 40)
+            "Grado 6": pygame.Rect(390, y_f2, 80, 40),
+            "Grado 7": pygame.Rect(490, y_f2, 80, 40),
+            "Grado 8": pygame.Rect(590, y_f2, 80, 40),
+            "Grado 9": pygame.Rect(690, y_f2, 80, 40)
         }
 
     def escalar_imagen(self, imagen):
-        # Ajusta la imagen a max 700x400 manteniendo proporción
         w, h = imagen.get_size()
-        max_w, max_h = 950, 543
+        max_w, max_h = 960, 600
         ratio = min(max_w/w, max_h/h)
         nuevo_tamano = (int(w*ratio), int(h*ratio))
         return pygame.transform.smoothscale(imagen, nuevo_tamano)
@@ -154,12 +154,12 @@ class InterfazGrafica:
         # ---------------------------------------------------------
         if self.estado == "MENU":
             # Título
-            txt_titulo = self.fuente_grande.render("Bienvenido a la Prueba de Admisión", True, C_TEXTO)
+            txt_titulo = self.fuente_grande.render("Bienvenido a tu Prueba de Admisión", True, C_TEXTO)
             rect_tit = txt_titulo.get_rect(center=(ANCHO//2, 100))
             self.pantalla.blit(txt_titulo, rect_tit)
 
             # --- Sección Nombre ---
-            txt_label_nombre = self.fuente.render("Ingrese nombre del aspirante:", True, C_TEXTO)
+            txt_label_nombre = self.fuente.render("Ingresa nombre del aspirante:", True, C_TEXTO)
             self.pantalla.blit(txt_label_nombre, (150, 180))
             
             # Caja de texto
@@ -171,7 +171,7 @@ class InterfazGrafica:
             self.pantalla.blit(txt_nombre, (caja_x + 10, 230))
 
             # --- Sección Grados ---
-            txt_label_grado = self.fuente.render("Seleccione el Grado al que aspira:", True, C_TEXTO)
+            txt_label_grado = self.fuente.render("Selecciona el Grado al que aspira:", True, C_TEXTO)
             rect_lbl_grado = txt_label_grado.get_rect(center=(ANCHO//2, 370))
             self.pantalla.blit(txt_label_grado, rect_lbl_grado)
 
@@ -208,8 +208,7 @@ class InterfazGrafica:
                     color_info = (150, 100, 100)
 
                 txt_inst = self.fuente_peq.render(info, True, color_info)
-                # Posición Y=680 (Cerca del fondo 750)
-                rect_inst = txt_inst.get_rect(center=(ANCHO//2, 680))
+                rect_inst = txt_inst.get_rect(center=(ANCHO//2, 550))
                 self.pantalla.blit(txt_inst, rect_inst)
 
         # ---------------------------------------------------------
@@ -220,10 +219,8 @@ class InterfazGrafica:
             
             if pregunta:
                 if getattr(sys, 'frozen', False):
-                    # Si es un ejecutable (.exe), la ruta base es donde está el archivo .exe
                     base_path = os.path.dirname(sys.executable)
                 else:
-                    # Si estamos en desarrollo (.py), la ruta base es donde está el script
                     base_path = os.path.dirname(os.path.abspath(__file__))
 
                 # ---------------------------------------------------------
@@ -242,21 +239,14 @@ class InterfazGrafica:
                 # c. Unimos la ruta base + la ruta del json
                 ruta_final_absoluta = os.path.join(base_path, ruta_del_json)
 
-                # ---------------------------------------------------------
                 # 3. CARGAR LA IMAGEN
-                # ---------------------------------------------------------
                 try:
-                    # Imprimimos para depurar (solo se ve si lanzas con consola)
-                    # print(f"Intentando cargar: {ruta_final_absoluta}")
-                    
                     img = pygame.image.load(ruta_final_absoluta)
                     img_esc = self.escalar_imagen(img)
-                    x_pos = (ANCHO - img_esc.get_width()) // 2
+                    x_pos = 10 #Espacio desde la izquierda
                     self.pantalla.blit(img_esc, (x_pos, 50))
                     
                 except Exception as e:
-                    # Fallback visual si no encuentra la imagen
-                    # Esto ayuda a saber qué ruta intentó buscar
                     print(f"Error cargando imagen: {e}") 
                     pygame.draw.rect(self.pantalla, (0, 0, 0), (50, 50, 700, 400)) # C_NEGRO directo por si acaso
                     
@@ -283,7 +273,7 @@ class InterfazGrafica:
                 idx = self.gestor.indice_actual + 1
                 total = len(self.gestor.preguntas)
                 txt_prog = self.fuente_peq.render(f"Pregunta {idx} de {total}", True, C_TEXTO)
-                self.pantalla.blit(txt_prog, (20, 20))
+                self.pantalla.blit(txt_prog, (15, 15))
 
         # ---------------------------------------------------------
         # PANTALLA: FINAL
